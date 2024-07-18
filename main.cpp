@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <SDL2/SDL.h>
 #include "src/math.h"
+#include <vector>
 
 #undef main
 
@@ -10,7 +11,60 @@
 #define RENDER_W 10
 #define RENDER_H 10
 
+enum class KeyState{KeyDown, KeyUp, KeyRelease, KeyHold};
+std::vector<KeyState> key_list;
 
+
+//******** INPUT *******
+void pool_events(SDL_Event* ev, bool& app_running){
+    while(SDL_PollEvent(ev) != 0){
+        if(ev->type == SDL_QUIT){
+            app_running = false;
+        }
+
+        switch(ev->type){
+            case SDL_KEYDOWN:{
+                uint32_t key_id = ev->key.keysym.sym;
+                if(key_id < key_list.size()){
+                    key_list[key_id] =  (key_list[key_id] == KeyState::KeyHold) ? KeyState::KeyHold : KeyState::KeyDown;
+                }
+                break;
+
+            }
+            case SDL_KEYUP:{
+                uint32_t key_id = ev->key.keysym.sym;
+                if(key_id < key_list.size()){
+                    key_list[key_id] = KeyState::KeyUp;
+                }
+                break;
+            }
+        }
+    }
+}
+
+bool is_key_down(uint32_t key_code){
+    return key_list[key_code] == KeyState::KeyDown;
+}
+
+bool is_key_up(uint32_t key_code){
+    return key_list[key_code] == KeyState::KeyUp;
+}
+
+bool is_key_press(uint32_t key_code){
+    return (key_list[key_code] == KeyState::KeyDown || key_list[key_code] == KeyState::KeyHold) ? true : false;
+}
+
+void reset_input(){
+    for(int i = 0; i < key_list.size(); i++){
+        if(key_list[i] == KeyState::KeyDown)
+            key_list[i] = KeyState::KeyHold;
+        if(key_list[i] == KeyState::KeyUp)
+            key_list[i] = KeyState::KeyRelease;
+    }
+}
+
+
+//************** RENDER ******************* 
 void set_pixel(uint32_t* buffer ,vec2 pos, uint32_t color){
    buffer[int(pos.x + pos.y * RENDER_W)] = color; 
 }
