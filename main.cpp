@@ -152,22 +152,6 @@ int main(){
 
         set_pixel(pixel_buffer, vec2{0,0}, 0xff0000);
 
-        if(is_key_up(SDLK_w)){
-            printf("W key up\n");
-        }
-
-        if(is_key_down(SDLK_w)){
-            printf("W key down\n");
-        }
-
-        if(is_key_press(SDLK_s)){
-            printf("S key PRESS\n");
-        }
-
-        if(is_mouse_button_up(SDL_BUTTON_LEFT)){
-            printf("S key PRESS\n");
-        }
-
 
 
         //for(int x = 0; x < RENDER_W; x++){
