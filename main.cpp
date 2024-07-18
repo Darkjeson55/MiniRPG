@@ -1,114 +1,78 @@
-#include <stdint.h>
-#include <stdlib.h>
 #include <stdio.h>
-#include <stdbool.h>
-#include <windows.h>
+#include <SDL2/SDL.h>
+#include "src/math.h"
 
-#define SCREEN_W 640
-#define SCREEN_H 480
+#undef main
 
-uint32_t scrbuf[SCREEN_W * SCREEN_H];
-bool quit = false;
+#define WINDOW_W 800
+#define WINDOW_H 600
 
-
-struct Color{
-
-};
+#define RENDER_W 10
+#define RENDER_H 10
 
 
-void set_pixel(){
-
+void set_pixel(uint32_t* buffer ,vec2 pos, uint32_t color){
+   buffer[int(pos.x + pos.y * RENDER_W)] = color; 
 }
 
-struct { 
-    int width;
-    int height;
-    uint32_t* pixels;
-} frame = {0};
 
-static BITMAPINFO frame_bitmpa_info;
-static HBITMAP frame_bitmap = 0;
-static HDC frame_device_context = 0;
+int main(){
 
+    //Window releted stuff
+    SDL_Window *window = nullptr;
+    SDL_Event event;
+    bool window_initialized = true;
 
-LRESULT window_proc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam){
+    //render releted stuff
+    SDL_Renderer* render = nullptr;
+    SDL_Texture* frame_buffer = nullptr;
+    uint32_t* pixel_buffer;
+    int pitch;
+    
 
-    switch(msg){
-        case WM_QUIT:
-        case WM_DESTROY: {
-            quit = true;
-        }break;
-
-        case WM_PAINT: {
-            PAINTSTRUCT paint;
-            HDC device_context;
-            device_context = BeginPaint(hwnd, &paint);
-            BitBlt(device_context,
-                    paint.rcPaint.left, paint.rcPaint.top,
-                    paint.rcPaint.right - paint.rcPaint.left, 
-                    paint.rcPaint.bottom - paint.rcPaint.top,
-                    frame_device_context,
-                    paint.rcPaint.left, paint.rcPaint.top,
-                    SRCCOPY);
-            EndPaint(hwnd, &paint);
-        } break;
-
-        case WM_SIZE: {
-            frame_bitmpa_info.bmiHeader.biWidth = LOWORD(lparam);
-            frame_bitmpa_info.bmiHeader.biHeight = HIWORD(lparam);
-
-            if(frame_bitmap) DeleteObject(frame_bitmap);
-            frame_bitmap = CreateDIBSection(NULL, &frame_bitmpa_info, DIB_RGB_COLORS, (void**)&frame.pixels, 0, 0);
-
-            frame.width = LOWORD(lparam);
-            frame.height = HIWORD(lparam);
-        }break;
-
-        default:{
-            return DefWindowProc(hwnd, msg, wparam, lparam);
-        }
+    if(SDL_Init(SDL_INIT_VIDEO != 0)){
+        printf("SDL FAILED TO INITIALIZE");
+        return 1;
     }
-    return 0;
-}
 
-int main(int argc, char* argv[]){
-
-    WNDCLASS wc = { CS_CLASSDC, window_proc };
-    wc.lpszClassName = TEXT("WindowClass");
-    wc.hCursor = LoadCursor(NULL, IDC_ARROW);
-    RegisterClass(&wc);
-
-    frame_bitmpa_info.bmiHeader.biSize = sizeof (frame_bitmpa_info.bmiHeader);
-    frame_bitmpa_info.bmiHeader.biPlanes = 1;
-    frame_bitmpa_info.bmiHeader.biBitCount = 32;
-    frame_bitmpa_info.bmiHeader.biCompression = BI_RGB;
-    frame_device_context = CreateCompatibleDC(0);
+    window = SDL_CreateWindow("MiniRPG",
+                SDL_WINDOWPOS_UNDEFINED,
+                SDL_WINDOWPOS_UNDEFINED, 
+                WINDOW_W, 
+                WINDOW_H, 
+                0);
 
 
-    HWND hwnd = CreateWindow( wc.lpszClassName, TEXT("MiniRPG"), WS_OVERLAPPEDWINDOW | WS_VISIBLE, CW_USEDEFAULT, CW_USEDEFAULT, SCREEN_W, SCREEN_H, NULL, NULL, NULL, NULL); 
+    render = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
+    frame_buffer = SDL_CreateTexture(render, SDL_PIXELFORMAT_ARGB8888, SDL_TEXTUREACCESS_STREAMING, RENDER_W, RENDER_H);
 
-    SetTimer(NULL, 0, 16, NULL);
-
-
-    while(!quit){
-        MSG msg;
-        while(PeekMessage(&msg, 0,0,0, PM_REMOVE)){
-            TranslateMessage(&msg);
-            DispatchMessage(&msg);
-        }
-        
-        uint32_t p = 0;
-
-        for(int x = 0; x < SCREEN_W; x++){
-            for(int y = 0; y < SCREEN_H; y++){
-                frame.pixels[x+y*SCREEN_H] = rand() % 255 << 16;
-
+    while(window_initialized){
+        if(SDL_PollEvent(&event)){
+            if(event.type == SDL_QUIT){
+                window_initialized = false;
             }
         }
 
-        InvalidateRect(hwnd, NULL, FALSE);
-        UpdateWindow(hwnd);
+        SDL_LockTexture(frame_buffer, NULL, (void**)&pixel_buffer, &pitch);
 
+
+        set_pixel(pixel_buffer, vec2{0,0}, 0xff0000);
+
+
+        //for(int x = 0; x < RENDER_W; x++){
+        //    for(int y = 0; y < RENDER_H; y++){
+        //        pixel_buffer[x+y*RENDER_W] = (int)((x / (float)RENDER_W) * 255) << 16 |  (int)((y / (float)RENDER_H) * 255) << 8;
+        //    }
+        //}
+
+
+        SDL_UnlockTexture(frame_buffer);
+        SDL_RenderCopy(render, frame_buffer, NULL, NULL);
+
+        SDL_RenderPresent(render);
     }
+
+    SDL_Quit();
+
     return 0;
 }
