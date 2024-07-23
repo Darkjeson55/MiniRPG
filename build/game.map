@@ -1,0 +1,1139 @@
+ game
+
+ Timestamp is 669fa564 (Tue Jul 23 15:43:16 2024)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000020H .text$di                CODE
+ 0001:00000020 0000ba20H .text$mn                CODE
+ 0001:0000ba40 00000040H .text$mn$00             CODE
+ 0001:0000ba80 00000122H .text$x                 CODE
+ 0002:00000000 000001d0H .idata$5                DATA
+ 0002:000001d0 00000028H .00cfg                  DATA
+ 0002:000001f8 00000008H .CRT$XCA                DATA
+ 0002:00000200 00000008H .CRT$XCU                DATA
+ 0002:00000208 00000008H .CRT$XCZ                DATA
+ 0002:00000210 00000008H .CRT$XIA                DATA
+ 0002:00000218 00000008H .CRT$XIZ                DATA
+ 0002:00000220 00000008H .CRT$XPA                DATA
+ 0002:00000228 00000008H .CRT$XPZ                DATA
+ 0002:00000230 00000008H .CRT$XTA                DATA
+ 0002:00000238 00000008H .CRT$XTZ                DATA
+ 0002:00000240 00000000H .gehcont$y              DATA
+ 0002:00000240 00000000H .gfids$y                DATA
+ 0002:00000240 000013c0H .rdata                  DATA
+ 0002:00001600 00000000H .rdata$CastGuardVftablesA DATA
+ 0002:00001600 00000000H .rdata$CastGuardVftablesC DATA
+ 0002:00001600 000000f8H .rdata$voltmd           DATA
+ 0002:000016f8 000002b0H .rdata$zzzdbg           DATA
+ 0002:000019a8 00000008H .rtc$IAA                DATA
+ 0002:000019b0 00000008H .rtc$IZZ                DATA
+ 0002:000019b8 00000008H .rtc$TAA                DATA
+ 0002:000019c0 00000008H .rtc$TZZ                DATA
+ 0002:000019c8 00000ac8H .xdata                  DATA
+ 0002:00002490 00000054H .edata                  DATA
+ 0002:000024e4 0000008cH .idata$2                DATA
+ 0002:00002570 00000018H .idata$3                DATA
+ 0002:00002588 000001d0H .idata$4                DATA
+ 0002:00002758 0000047eH .idata$6                DATA
+ 0003:00000000 000000a0H .data                   DATA
+ 0003:000000a0 00020750H .bss                    DATA
+ 0004:00000000 00000d38H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       __hybrid_auxiliary_iat_copy 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
+ 0000:00000000       __AbsoluteZero             0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table_size 0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       __guard_check_icall_a64n_fptr 0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_count      0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
+ 0000:00000000       __enclave_config           0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points_count 0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
+ 0000:00000000       __arm64x_native_entrypoint 0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_table      0000000000000000     <absolute>
+ 0000:00000100       __guard_flags              0000000000000100     <absolute>
+ 0000:00000000       __ImageBase                0000000180000000     <linker-defined>
+ 0001:00000020       ?u64_to_char_ptr@@YAH_KPEAD@Z 0000000180001020 f   game.obj
+ 0001:00000120       ?s64_to_char_ptr@@YAH_JPEAD@Z 0000000180001120 f   game.obj
+ 0001:00000180       ?s32_to_char_ptr@@YAHHPEAD@Z 0000000180001180 f   game.obj
+ 0001:000001b0       ?u32_to_char_ptr@@YAHIPEAD@Z 00000001800011b0 f   game.obj
+ 0001:000001e0       ?u16_to_char_ptr@@YAHGPEAD@Z 00000001800011e0 f   game.obj
+ 0001:00000210       ?u8_to_char_ptr@@YAHEPEAD@Z 0000000180001210 f   game.obj
+ 0001:00000240       ?s16_to_char_ptr@@YAHFPEAD@Z 0000000180001240 f   game.obj
+ 0001:00000270       ?s8_to_char_ptr@@YAHCPEAD@Z 0000000180001270 f   game.obj
+ 0001:000002a0       ?vec2_wedge@@YAMUvec2@@0@Z 00000001800012a0 f   game.obj
+ 0001:000002d0       ?printsl_custom@@YAXUbivec@@@Z 00000001800012d0 f   game.obj
+ 0001:00000310       ?printsl_custom@@YAXUtrivec@@@Z 0000000180001310 f   game.obj
+ 0001:00000340       ?vec3_wedge@@YA?AUbivec@@Uvec3@@0@Z 0000000180001340 f   game.obj
+ 0001:00000440       ?bivec_dual@@YA?AUvec3@@Ubivec@@@Z 0000000180001440 f   game.obj
+ 0001:000004c0       ?bivec_dual@@YA?AUbivec@@Uvec3@@@Z 00000001800014c0 f   game.obj
+ 0001:00000550       ?printsl_custom@@YAXUrotor@@@Z 0000000180001550 f   game.obj
+ 0001:000005a0       ?rotor_from_to@@YA?AUrotor@@Uvec3@@0@Z 00000001800015a0 f   game.obj
+ 0001:000009f0       ?rotor_from_axis_angle@@YA?AUrotor@@Uvec3@@M@Z 00000001800019f0 f   game.obj
+ 0001:00000c00       ?rotor_from_turns@@YA?AUrotor@@Ubivec@@@Z 0000000180001c00 f   game.obj
+ 0001:00000e00       ?rotor_combine@@YA?AUrotor@@U1@0@Z 0000000180001e00 f   game.obj
+ 0001:00001000       ?rotor_reverse@@YA?AUrotor@@U1@@Z 0000000180002000 f   game.obj
+ 0001:00001080       ?vec3_rotate@@YA?AUvec3@@U1@Urotor@@@Z 0000000180002080 f   game.obj
+ 0001:000013d0       ?make_matrix_from_rotor@@YA?AUmat4@@Urotor@@@Z 00000001800023d0 f   game.obj
+ 0001:00001680       ?to_string@@YAPEBDW4AllocOp@@@Z 0000000180002680 f   game.obj
+ 0001:00001720       ?printsl_custom@@YAXW4AllocOp@@@Z 0000000180002720 f   game.obj
+ 0001:00001760       ?printsl_custom@@YAXUBump@@@Z 0000000180002760 f   game.obj
+ 0001:00001830       ?bump_reset@@YAXPEAUBump@@@Z 0000000180002830 f   game.obj
+ 0001:00001940       ?bump_handle@@YAPEAXW4AllocOp@@PEAXHH1@Z 0000000180002940 f   game.obj
+ 0001:00001d40       ?make_bump_allocator@@YA?AUBump@@PEAXH@Z 0000000180002d40 f   game.obj
+ 0001:00001de0       ?make_bump_allocator@@YA?AUBump@@H@Z 0000000180002de0 f   game.obj
+ 0001:00001e90       ?mem_free_all@@YAXPEAUBump@@@Z 0000000180002e90 f   game.obj
+ 0001:00001ed0       ?mem_alloc@@YAPEAXPEAUBump@@H@Z 0000000180002ed0 f   game.obj
+ 0001:00001f10       ?printsl_custom@@YAXUArena@@@Z 0000000180002f10 f   game.obj
+ 0001:00001fe0       ?arena_reset@@YAXPEAUArena@@@Z 0000000180002fe0 f   game.obj
+ 0001:00002010       ?arena_get_header_before_data@@YAPEAUArenaHeader@@PEAX@Z 0000000180003010 f   game.obj
+ 0001:00002050       ?arena_prepare_new_memory_block@@YAPEAXPEAUArena@@HPEAUArenaHeader@@@Z 0000000180003050 f   game.obj
+ 0001:000020d0       ?arena_handle@@YAPEAXW4AllocOp@@PEAXHH1@Z 00000001800030d0 f   game.obj
+ 0001:000023f0       ?make_arena_allocator@@YA?AUArena@@H@Z 00000001800033f0 f   game.obj
+ 0001:000024a0       ?mem_free_all@@YAXPEAUArena@@@Z 00000001800034a0 f   game.obj
+ 0001:000024e0       ?mem_alloc@@YAPEAXPEAUArena@@H@Z 00000001800034e0 f   game.obj
+ 0001:00002520       ?mem_realloc@@YAPEAXPEAUArena@@PEAXH@Z 0000000180003520 f   game.obj
+ 0001:00002560       ?mem_realloc@@YAPEAXPEAUArena@@PEAXHH@Z 0000000180003560 f   game.obj
+ 0001:000025b0       ?printsl_custom@@YAXUAllocator@@@Z 00000001800035b0 f   game.obj
+ 0001:00002620       ?make_allocator@@YA?AUAllocator@@PEAUBump@@@Z 0000000180003620 f   game.obj
+ 0001:00002680       ?make_allocator@@YA?AUAllocator@@PEAUArena@@@Z 0000000180003680 f   game.obj
+ 0001:000026e0       ?default_handle@@YAPEAXW4AllocOp@@PEAXHH1@Z 00000001800036e0 f   game.obj
+ 0001:00002770       ?mem_alloc@@YAPEAXUAllocator@@H@Z 0000000180003770 f   game.obj
+ 0001:000027c0       ?mem_realloc@@YAPEAXUAllocator@@HHPEAX@Z 00000001800037c0 f   game.obj
+ 0001:00002820       ?mem_free@@YAPEAXUAllocator@@PEAX@Z 0000000180003820 f   game.obj
+ 0001:00002870       ?unicode_utf8_to_size@@YACE@Z 0000000180003870 f   game.obj
+ 0001:000028b0       ?unicode_codepoint_to_size@@YACI@Z 00000001800038b0 f   game.obj
+ 0001:000028f0       ?unicode_codepoint_to_utf8@@YAII@Z 00000001800038f0 f   game.obj
+ 0001:000029b0       ?unicode_is_header@@YA_NE@Z 00000001800039b0 f   game.obj
+ 0001:000029f0       ?unicode_utf8_to_codepoint@@YAIPEAE@Z 00000001800039f0 f   game.obj
+ 0001:00002ac0       ?c_string_length@@YAHPEBD@Z 0000000180003ac0 f   game.obj
+ 0001:00002b10       ?str_to_c_string@@YAPEBDUstr@@UAllocator@@@Z 0000000180003b10 f   game.obj
+ 0001:00002bf0       ?str_to_c_string@@YAPEBDUstr@@@Z 0000000180003bf0 f   game.obj
+ 0001:00002c50       ?str_concat@@YA?AUstr@@U1@0UAllocator@@@Z 0000000180003c50 f   game.obj
+ 0001:00002d30       ?str_concat@@YA?AUstr@@U1@0@Z 0000000180003d30 f   game.obj
+ 0001:00002dc0       ?str_copy@@YA?AUstr@@U1@UAllocator@@@Z 0000000180003dc0 f   game.obj
+ 0001:00002e50       ?str_copy@@YA?AUstr@@U1@@Z 0000000180003e50 f   game.obj
+ 0001:00002ec0       ?str_split_left@@YA_NUstr@@EPEAU1@1@Z 0000000180003ec0 f   game.obj
+ 0001:00002fa0       ?str_split_left@@YA_NUstr@@0PEAU1@1@Z 0000000180003fa0 f   game.obj
+ 0001:000031c0       ?str_split_newline_left@@YA_NUstr@@PEAU1@1@Z 00000001800041c0 f   game.obj
+ 0001:000032e0       ?str_split_right@@YA_NUstr@@EPEAU1@1@Z 00000001800042e0 f   game.obj
+ 0001:000033c0       ?str_trim_left_inplace@@YAXPEAUstr@@@Z 00000001800043c0 f   game.obj
+ 0001:00003440       ?str_trim_right_inplace@@YAXPEAUstr@@@Z 0000000180004440 f   game.obj
+ 0001:000034c0       ?str_trim_inplace@@YAXPEAUstr@@@Z 00000001800044c0 f   game.obj
+ 0001:000034f0       ?str_trim_left@@YA?AUstr@@U1@@Z 00000001800044f0 f   game.obj
+ 0001:000035b0       ?str_trim_right@@YA?AUstr@@U1@@Z 00000001800045b0 f   game.obj
+ 0001:00003660       ?str_trim@@YA?AUstr@@U1@@Z 0000000180004660 f   game.obj
+ 0001:000036f0       ?str_to_u32@@YA_NUstr@@PEAI@Z 00000001800046f0 f   game.obj
+ 0001:00003780       ?str_to_u32@@YAIUstr@@@Z   0000000180004780 f   game.obj
+ 0001:000037f0       ?str_starts_with@@YA_NUstr@@D@Z 00000001800047f0 f   game.obj
+ 0001:00003850       ?str_starts_with@@YA_NUstr@@0@Z 0000000180004850 f   game.obj
+ 0001:000038e0       ?str_ends_with@@YA_NUstr@@D@Z 00000001800048e0 f   game.obj
+ 0001:00003940       ?str_ends_with@@YA_NUstr@@0@Z 0000000180004940 f   game.obj
+ 0001:000039f0       ?str_count@@YAHUstr@@D@Z   00000001800049f0 f   game.obj
+ 0001:00003aa0       ?str_length_in_char@@YAIUstr@@@Z 0000000180004aa0 f   game.obj
+ 0001:00003b80       ?str_is_u32@@YA_NUstr@@@Z  0000000180004b80 f   game.obj
+ 0001:00003c00       ?str_matches@@YA_NUstr@@0@Z 0000000180004c00 f   game.obj
+ 0001:00003ca0       ?make_str_builder@@YA?AUStrBuilder@@HUAllocator@@@Z 0000000180004ca0 f   game.obj
+ 0001:00003d60       ?make_str_builder@@YA?AUStrBuilder@@XZ 0000000180004d60 f   game.obj
+ 0001:00003de0       ?make_str_builder@@YA?AUStrBuilder@@H@Z 0000000180004de0 f   game.obj
+ 0001:00003e60       ?str_builder_free@@YAXPEAUStrBuilder@@@Z 0000000180004e60 f   game.obj
+ 0001:00003ec0       ?str_builder_clear@@YAXPEAUStrBuilder@@@Z 0000000180004ec0 f   game.obj
+ 0001:00003ee0       ?str_builder_copy@@YA?AUStrBuilder@@PEAU1@@Z 0000000180004ee0 f   game.obj
+ 0001:00003f70       ?str_builder_get_str@@YA?AUstr@@PEAUStrBuilder@@@Z 0000000180004f70 f   game.obj
+ 0001:00003fd0       ?str_builder_resize@@YAXPEAUStrBuilder@@H@Z 0000000180004fd0 f   game.obj
+ 0001:00004110       ?str_builder_reserve@@YAXPEAUStrBuilder@@H@Z 0000000180005110 f   game.obj
+ 0001:00004160       ?str_builder_append@@YAXPEAUStrBuilder@@Ustr@@@Z 0000000180005160 f   game.obj
+ 0001:00004250       ?str_builder_append@@YAXPEAUStrBuilder@@PEBD@Z 0000000180005250 f   game.obj
+ 0001:000042b0       ?str_builder_append@@YAXPEAUStrBuilder@@_N@Z 00000001800052b0 f   game.obj
+ 0001:00004330       ?str_builder_append@@YAXPEAUStrBuilder@@D@Z 0000000180005330 f   game.obj
+ 0001:00004390       ?str_builder_append@@YAXPEAUStrBuilder@@E@Z 0000000180005390 f   game.obj
+ 0001:00004400       ?str_builder_append@@YAXPEAUStrBuilder@@G@Z 0000000180005400 f   game.obj
+ 0001:00004490       ?str_builder_append@@YAXPEAUStrBuilder@@I@Z 0000000180005490 f   game.obj
+ 0001:00004520       ?str_builder_append@@YAXPEAUStrBuilder@@_K@Z 0000000180005520 f   game.obj
+ 0001:000045b0       ?str_builder_append@@YAXPEAUStrBuilder@@C@Z 00000001800055b0 f   game.obj
+ 0001:00004640       ?str_builder_append@@YAXPEAUStrBuilder@@F@Z 0000000180005640 f   game.obj
+ 0001:000046d0       ?str_builder_append@@YAXPEAUStrBuilder@@H@Z 00000001800056d0 f   game.obj
+ 0001:00004760       ?str_builder_append@@YAXPEAUStrBuilder@@_J@Z 0000000180005760 f   game.obj
+ 0001:000047f0       ?str_builder_append@@YAXPEAUStrBuilder@@M@Z 00000001800057f0 f   game.obj
+ 0001:00004890       ?str_builder_append@@YAXPEAUStrBuilder@@N@Z 0000000180005890 f   game.obj
+ 0001:00004930       ?str_builder_append_hex@@YAXPEAUStrBuilder@@I@Z 0000000180005930 f   game.obj
+ 0001:000049c0       ?str_builder_append@@YAXPEAUStrBuilder@@Uvec2@@@Z 00000001800059c0 f   game.obj
+ 0001:00004a20       ?str_builder_append@@YAXPEAUStrBuilder@@Uvec3@@@Z 0000000180005a20 f   game.obj
+ 0001:00004ab0       ?str_builder_append@@YAXPEAUStrBuilder@@Uvec4@@@Z 0000000180005ab0 f   game.obj
+ 0001:00004b60       ?str_builder_append_raw@@YAXPEAUStrBuilder@@PEAEH@Z 0000000180005b60 f   game.obj
+ 0001:00004c50       ?str_builder_append_raw@@YAXPEAUStrBuilder@@E@Z 0000000180005c50 f   game.obj
+ 0001:00004d00       ?str_builder_append_raw@@YAXPEAUStrBuilder@@_N@Z 0000000180005d00 f   game.obj
+ 0001:00004d30       ?str_builder_append_raw@@YAXPEAUStrBuilder@@_K@Z 0000000180005d30 f   game.obj
+ 0001:00004d60       ?str_builder_append_raw@@YAXPEAUStrBuilder@@I@Z 0000000180005d60 f   game.obj
+ 0001:00004d90       ?str_builder_append_raw@@YAXPEAUStrBuilder@@G@Z 0000000180005d90 f   game.obj
+ 0001:00004dc0       ?str_builder_append_raw@@YAXPEAUStrBuilder@@_J@Z 0000000180005dc0 f   game.obj
+ 0001:00004df0       ?str_builder_append_raw@@YAXPEAUStrBuilder@@H@Z 0000000180005df0 f   game.obj
+ 0001:00004e20       ?str_builder_append_raw@@YAXPEAUStrBuilder@@F@Z 0000000180005e20 f   game.obj
+ 0001:00004e50       ?str_builder_append_raw@@YAXPEAUStrBuilder@@M@Z 0000000180005e50 f   game.obj
+ 0001:00004e80       ?str_builder_append_raw@@YAXPEAUStrBuilder@@N@Z 0000000180005e80 f   game.obj
+ 0001:00004eb0       ?str_builder_append_raw@@YAXPEAUStrBuilder@@Uvec2@@@Z 0000000180005eb0 f   game.obj
+ 0001:00004ef0       ?str_builder_append_raw@@YAXPEAUStrBuilder@@Uvec3@@@Z 0000000180005ef0 f   game.obj
+ 0001:00004f50       ?str_builder_append_raw@@YAXPEAUStrBuilder@@Uvec4@@@Z 0000000180005f50 f   game.obj
+ 0001:00004fc0       ?str_builder_remove_last_bytes@@YAXPEAUStrBuilder@@H@Z 0000000180005fc0 f   game.obj
+ 0001:00004ff0       ?make_str_parser@@YA?AUStrParser@@Ustr@@@Z 0000000180005ff0 f   game.obj
+ 0001:00005050       ?make_str_parser@@YA?AUStrParser@@PEAEH@Z 0000000180006050 f   game.obj
+ 0001:000050b0       ?copy_str_parser@@YA?AUStrParser@@U1@@Z 00000001800060b0 f   game.obj
+ 0001:00005110       ?str_parser_to_str@@YA?AUstr@@UStrParser@@@Z 0000000180006110 f   game.obj
+ 0001:00005170       ?str_parser_is_empty@@YA_NPEAUStrParser@@@Z 0000000180006170 f   game.obj
+ 0001:000051b0       ?str_parser_advance@@YAXPEAUStrParser@@H@Z 00000001800061b0 f   game.obj
+ 0001:00005270       ?str_parser_starts_with@@YA_NPEAUStrParser@@Ustr@@@Z 0000000180006270 f   game.obj
+ 0001:00005310       ?str_parser_check_magic@@YA_NPEAUStrParser@@Ustr@@@Z 0000000180006310 f   game.obj
+ 0001:000053c0       ?str_parser_starts_with_digit@@YA_NPEAUStrParser@@@Z 00000001800063c0 f   game.obj
+ 0001:00005420       ?str_parser_parse_bool@@YA_NPEAUStrParser@@PEA_N@Z 0000000180006420 f   game.obj
+ 0001:000055f0       ?str_parser_parse_u8@@YA_NPEAUStrParser@@PEAE@Z 00000001800065f0 f   game.obj
+ 0001:000056a0       ?str_parser_parse_u16@@YA_NPEAUStrParser@@PEAG@Z 00000001800066a0 f   game.obj
+ 0001:00005750       ?str_parser_parse_u32@@YA_NPEAUStrParser@@PEAI@Z 0000000180006750 f   game.obj
+ 0001:00005800       ?str_parser_parse_u64@@YA_NPEAUStrParser@@PEA_K@Z 0000000180006800 f   game.obj
+ 0001:000058b0       ?hash_default@@YA_KPEAEH@Z 00000001800068b0 f   game.obj
+ 0001:00005970       ?estimate_cpu_frequency@@YA_KH@Z 0000000180006970 f   game.obj
+ 0001:00005a40       ?begin_profile@@YAXXZ      0000000180006a40 f   game.obj
+ 0001:00005a60       ?pad_right@@YAXH@Z         0000000180006a60 f   game.obj
+ 0001:00005aa0       ?end_and_print_profile@@YAXXZ 0000000180006aa0 f   game.obj
+ 0001:00005ee0       ?print_benchmark_time@@YAX_K@Z 0000000180006ee0 f   game.obj
+ 0001:00006030       ?print_benchmark_times@@YAX_K00@Z 0000000180007030 f   game.obj
+ 0001:00006310       ?win64_print_error@@YAXXZ  0000000180007310 f   game.obj
+ 0001:00006390       ?win64_alloc@@YAPEAXH@Z    0000000180007390 f   game.obj
+ 0001:000063c0       ?win64_free@@YAXPEAX@Z     00000001800073c0 f   game.obj
+ 0001:000063f0       ?get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z 00000001800073f0 f   game.obj
+ 0001:00006a50       ?get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z 0000000180007a50 f   game.obj
+ 0001:00007210       ?get_drive_names@@YA_NPEAU?$Array@Ustr@@@@@Z 0000000180008210 f   game.obj
+ 0001:000073d0       ?game_update_stub@@YAXPEAIN@Z 00000001800083d0 f   game.obj
+ 0001:000073f0       ?draw_pixel@@YAXPEAIUvec2@@I@Z 00000001800083f0 f   game.obj
+ 0001:00007470       ?draw_quad@@YAXPEAIUvec2@@1I@Z 0000000180008470 f   game.obj
+ 0001:00007520       ?swap@@YAXAEAM0@Z          0000000180008520 f   game.obj
+ 0001:00007570       ?draw_line@@YAXPEAIUvec2@@1I@Z 0000000180008570 f   game.obj
+ 0001:000077f0       game_update_and_render     00000001800087f0 f   game.obj
+ 0001:00007a00       ??$?0HH@vec2@@QEAA@HH@Z    0000000180008a00 f i game.obj
+ 0001:00007a40       ??$?0HHH@vec3@@QEAA@HHH@Z  0000000180008a40 f i game.obj
+ 0001:00007a90       ??$?0HHHH@col@@QEAA@HHHH@Z 0000000180008a90 f i game.obj
+ 0001:00007af0       ??$?0HHMM@col@@QEAA@HHMM@Z 0000000180008af0 f i game.obj
+ 0001:00007b50       ??$?0MMM@vec3@@QEAA@MMM@Z  0000000180008b50 f i game.obj
+ 0001:00007ba0       ??$?0MMMM@col@@QEAA@MMMM@Z 0000000180008ba0 f i game.obj
+ 0001:00007d80       ??$accumulate_into_buffer@H$$V@@YAXPEBDH@Z 0000000180008d80 f i game.obj
+ 0001:00007e60       ??$accumulate_into_buffer@HH@@YAXPEBDHH@Z 0000000180008e60 f i game.obj
+ 0001:00007f50       ??$accumulate_into_buffer@HHH@@YAXPEBDHHH@Z 0000000180008f50 f i game.obj
+ 0001:00008040       ??$accumulate_into_buffer@HM@@YAXPEBDHM@Z 0000000180009040 f i game.obj
+ 0001:00008130       ??$accumulate_into_buffer@HMHM@@YAXPEBDHMHM@Z 0000000180009130 f i game.obj
+ 0001:00008230       ??$accumulate_into_buffer@M$$V@@YAXPEBDM@Z 0000000180009230 f i game.obj
+ 0001:00008310       ??$accumulate_into_buffer@MHM@@YAXPEBDMHM@Z 0000000180009310 f i game.obj
+ 0001:00008410       ??$accumulate_into_buffer@MM@@YAXPEBDMM@Z 0000000180009410 f i game.obj
+ 0001:00008500       ??$accumulate_into_buffer@MMM@@YAXPEBDMMM@Z 0000000180009500 f i game.obj
+ 0001:00008600       ??$accumulate_into_buffer@MMMM@@YAXPEBDMMMM@Z 0000000180009600 f i game.obj
+ 0001:00008700       ??$accumulate_into_buffer@N$$V@@YAXPEBDN@Z 0000000180009700 f i game.obj
+ 0001:000087e0       ??$accumulate_into_buffer@NN@@YAXPEBDNN@Z 00000001800097e0 f i game.obj
+ 0001:000088d0       ??$accumulate_into_buffer@NNN@@YAXPEBDNNN@Z 00000001800098d0 f i game.obj
+ 0001:000089d0       ??$accumulate_into_buffer@PEBD$$V@@YAXPEBD0@Z 00000001800099d0 f i game.obj
+ 0001:00008ab0       ??$accumulate_into_buffer@PEBDPEBD@@YAXPEBD00@Z 0000000180009ab0 f i game.obj
+ 0001:00008ba0       ??$accumulate_into_buffer@Uvec3@@$$V@@YAXPEBDUvec3@@@Z 0000000180009ba0 f i game.obj
+ 0001:00008ca0       ??$accumulate_into_buffer@Uvec3@@U1@@@YAXPEBDUvec3@@1@Z 0000000180009ca0 f i game.obj
+ 0001:00008dc0       ??$array_append@Ustr@@@@YAXPEAU?$Array@Ustr@@@@Ustr@@@Z 0000000180009dc0 f i game.obj
+ 0001:00008e20       ??$array_reserve@Ustr@@@@YAXPEAU?$Array@Ustr@@@@H@Z 0000000180009e20 f i game.obj
+ 0001:00008f20       ??$array_resize@Ustr@@@@YAXPEAU?$Array@Ustr@@@@H@Z 0000000180009f20 f i game.obj
+ 0001:00009010       ??$assert_func@$$V@@YA_N_NPEBD1H11@Z 000000018000a010 f i game.obj
+ 0001:000090b0       ??$assert_func@H@@YA_N_NPEBD1H11H@Z 000000018000a0b0 f i game.obj
+ 0001:00009150       ??$assert_func@HH@@YA_N_NPEBD1H11HH@Z 000000018000a150 f i game.obj
+ 0001:000091f0       ??$assert_func@HHH@@YA_N_NPEBD1H11HHH@Z 000000018000a1f0 f i game.obj
+ 0001:000092a0       ??$assert_func@M@@YA_N_NPEBD1H11M@Z 000000018000a2a0 f i game.obj
+ 0001:00009340       ??$assert_func@Uvec3@@U1@@@YA_N_NPEBD1H11Uvec3@@2@Z 000000018000a340 f i game.obj
+ 0001:00009420       ??$print@H$$V@@YAXPEBDH@Z  000000018000a420 f i game.obj
+ 0001:00009450       ??$print@HH@@YAXPEBDHH@Z   000000018000a450 f i game.obj
+ 0001:00009490       ??$print@HHH@@YAXPEBDHHH@Z 000000018000a490 f i game.obj
+ 0001:000094d0       ??$print@M$$V@@YAXPEBDM@Z  000000018000a4d0 f i game.obj
+ 0001:00009500       ??$print@N$$V@@YAXPEBDN@Z  000000018000a500 f i game.obj
+ 0001:00009530       ??$print@NNN@@YAXPEBDNNN@Z 000000018000a530 f i game.obj
+ 0001:00009580       ??$print@PEBD$$V@@YAXPEBD0@Z 000000018000a580 f i game.obj
+ 0001:000095b0       ??$print@PEBD@@YAXPEBD@Z   000000018000a5b0 f i game.obj
+ 0001:000095e0       ??$print@Uvec3@@U1@@@YAXPEBDUvec3@@1@Z 000000018000a5e0 f i game.obj
+ 0001:00009650       ??$printsl@HMHM@@YAXPEBDHMHM@Z 000000018000a650 f i game.obj
+ 0001:000096a0       ??$printsl@M$$V@@YAXPEBDM@Z 000000018000a6a0 f i game.obj
+ 0001:000096d0       ??$printsl@MMM@@YAXPEBDMMM@Z 000000018000a6d0 f i game.obj
+ 0001:00009720       ??$printsl@MMMM@@YAXPEBDMMMM@Z 000000018000a720 f i game.obj
+ 0001:00009770       ??$printsl@PEBD@@YAXPEBD@Z 000000018000a770 f i game.obj
+ 0001:00009790       ??$printsl@PEBDPEBD@@YAXPEBD00@Z 000000018000a790 f i game.obj
+ 0001:000097d0       ??$str_parser_get@D@@YADPEAUStrParser@@@Z 000000018000a7d0 f i game.obj
+ 0001:00009810       ??0Allocator@@QEAA@XZ      000000018000a810 f i game.obj
+ 0001:00009840       ??0Arena@@QEAA@XZ          000000018000a840 f i game.obj
+ 0001:00009880       ??0StrBuilder@@QEAA@XZ     000000018000a880 f i game.obj
+ 0001:000098b0       ??0rotor@@QEAA@XZ          000000018000a8b0 f i game.obj
+ 0001:000098d0       ??0str@@QEAA@PEBD@Z        000000018000a8d0 f i game.obj
+ 0001:00009910       ??Astr@@QEAAAEAEH@Z        000000018000a910 f i game.obj
+ 0001:000099b0       ??H@YA?AUvec3@@U0@0@Z      000000018000a9b0 f i game.obj
+ 0001:00009a20       ??K@YA?AUbivec@@U0@M@Z     000000018000aa20 f i game.obj
+ 0001:00009ac0       ??X@YAAEAUbivec@@AEAU0@M@Z 000000018000aac0 f i game.obj
+ 0001:00009b20       ?__sqrt@@YAMM@Z            000000018000ab20 f i game.obj
+ 0001:00009b70       ?_sin_internal@@YAMM@Z     000000018000ab70 f i game.obj
+ 0001:00009bd0       ?accumulate_into_buffer@@YAXPEBD@Z 000000018000abd0 f i game.obj
+ 0001:00009c90       ?col_denormalize@@YA?AUcol@@U1@@Z 000000018000ac90 f i game.obj
+ 0001:00009ce0       ?col_normalize@@YA?AUcol@@U1@@Z 000000018000ace0 f i game.obj
+ 0001:00009d30       ?col_rgb_to_hsv@@YA?AUcol@@U1@@Z 000000018000ad30 f i game.obj
+ 0001:0000a030       ?color_hsv_to_rgb@@YA?AUcol@@U1@@Z 000000018000b030 f i game.obj
+ 0001:0000a320       ?color_lerp_hsv@@YA?AUcol@@U1@0M@Z 000000018000b320 f i game.obj
+ 0001:0000a4b0       ?cos_turns@@YAMM@Z         000000018000b4b0 f i game.obj
+ 0001:0000a4e0       ?count_digits@@YAE_K@Z     000000018000b4e0 f i game.obj
+ 0001:0000a520       ?flush_to_stdout@@YAXXZ    000000018000b520 f i game.obj
+ 0001:0000a570       ?printsl_custom@@YAXD@Z    000000018000b570 f i game.obj
+ 0001:0000a5a0       ?printsl_custom@@YAXH@Z    000000018000b5a0 f i game.obj
+ 0001:0000a5f0       ?printsl_custom@@YAXM@Z    000000018000b5f0 f i game.obj
+ 0001:0000a660       ?printsl_custom@@YAXN@Z    000000018000b660 f i game.obj
+ 0001:0000a6d0       ?printsl_custom@@YAXPEBD@Z 000000018000b6d0 f i game.obj
+ 0001:0000a740       ?printsl_custom@@YAXUvec3@@@Z 000000018000b740 f i game.obj
+ 0001:0000a7d0       ?read_cpu_timer@@YA_KXZ    000000018000b7d0 f i game.obj
+ 0001:0000a7e0       ?sin@@YAMM@Z               000000018000b7e0 f i game.obj
+ 0001:0000a800       ?sin_turns@@YAMM@Z         000000018000b800 f i game.obj
+ 0001:0000a890       ?tan@@YAMM@Z               000000018000b890 f i game.obj
+ 0001:0000a8b0       ?vec3_dot@@YAMUvec3@@0@Z   000000018000b8b0 f i game.obj
+ 0001:0000a900       ?vec3_length@@YAMUvec3@@@Z 000000018000b900 f i game.obj
+ 0001:0000a940       ?vec3_length_squared@@YAMUvec3@@@Z 000000018000b940 f i game.obj
+ 0001:0000a990       ?vec3_normalize@@YA?AUvec3@@U1@0M@Z 000000018000b990 f i game.obj
+ 0001:0000aa50       __local_stdio_printf_options 000000018000ba50 f i game.obj
+ 0001:0000aa60       _vfprintf_l                000000018000ba60 f i game.obj
+ 0001:0000aab0       printf                     000000018000bab0 f i game.obj
+ 0001:0000ab20       snprintf                   000000018000bb20 f i game.obj
+ 0001:0000ab80       vsnprintf                  000000018000bb80 f i game.obj
+ 0001:0000abf8       __GSHandlerCheck           000000018000bbf8 f   MSVCRT:gshandler.obj
+ 0001:0000ac18       __GSHandlerCheckCommon     000000018000bc18 f   MSVCRT:gshandler.obj
+ 0001:0000ac74       __GSHandlerCheck_EH4       000000018000bc74 f   MSVCRT:gshandlereh4.obj
+ 0001:0000ad10       __security_check_cookie    000000018000bd10 f   MSVCRT:amdsecgs.obj
+ 0001:0000b050       _DllMainCRTStartup         000000018000c050 f   MSVCRT:dll_dllmain.obj
+ 0001:0000b090       __raise_securityfailure    000000018000c090 f   MSVCRT:gs_report.obj
+ 0001:0000b0c4       __report_gsfailure         000000018000c0c4 f   MSVCRT:gs_report.obj
+ 0001:0000b20c       __security_init_cookie     000000018000c20c f   MSVCRT:gs_support.obj
+ 0001:0000b2b8       DllMain                    000000018000c2b8 f   MSVCRT:dll_dllmain_stub.obj
+ 0001:0000b2dc       ?__scrt_initialize_type_info@@YAXXZ 000000018000c2dc f   MSVCRT:tncleanup.obj
+ 0001:0000b2ec       ?__scrt_uninitialize_type_info@@YAXXZ 000000018000c2ec f   MSVCRT:tncleanup.obj
+ 0001:0000b2f8       __local_stdio_scanf_options 000000018000c2f8 f i MSVCRT:default_local_stdio_options.obj
+ 0001:0000b300       __scrt_initialize_default_local_stdio_options 000000018000c300 f   MSVCRT:default_local_stdio_options.obj
+ 0001:0000b31c       __scrt_acquire_startup_lock 000000018000c31c f   MSVCRT:utility.obj
+ 0001:0000b358       __scrt_dllmain_after_initialize_c 000000018000c358 f   MSVCRT:utility.obj
+ 0001:0000b38c       __scrt_dllmain_before_initialize_c 000000018000c38c f   MSVCRT:utility.obj
+ 0001:0000b3a4       __scrt_dllmain_crt_thread_attach 000000018000c3a4 f   MSVCRT:utility.obj
+ 0001:0000b3cc       __scrt_dllmain_crt_thread_detach 000000018000c3cc f   MSVCRT:utility.obj
+ 0001:0000b3e4       __scrt_dllmain_exception_filter 000000018000c3e4 f   MSVCRT:utility.obj
+ 0001:0000b444       __scrt_dllmain_uninitialize_c 000000018000c444 f   MSVCRT:utility.obj
+ 0001:0000b474       __scrt_dllmain_uninitialize_critical 000000018000c474 f   MSVCRT:utility.obj
+ 0001:0000b488       __scrt_initialize_crt      000000018000c488 f   MSVCRT:utility.obj
+ 0001:0000b4d4       __scrt_initialize_onexit_tables 000000018000c4d4 f   MSVCRT:utility.obj
+ 0001:0000b560       __scrt_is_nonwritable_in_current_image 000000018000c560 f   MSVCRT:utility.obj
+ 0001:0000b5f8       __scrt_release_startup_lock 000000018000c5f8 f   MSVCRT:utility.obj
+ 0001:0000b61c       __scrt_uninitialize_crt    000000018000c61c f   MSVCRT:utility.obj
+ 0001:0000b648       __scrt_get_dyn_tls_init_callback 000000018000c648 f   MSVCRT:dyn_tls_init.obj
+ 0001:0000b650       __crt_debugger_hook        000000018000c650 f   MSVCRT:utility_desktop.obj
+ 0001:0000b658       __scrt_fastfail            000000018000c658 f   MSVCRT:utility_desktop.obj
+ 0001:0000b7a4       _RTC_Initialize            000000018000c7a4 f   MSVCRT:initsect.obj
+ 0001:0000b7e0       _RTC_Terminate             000000018000c7e0 f   MSVCRT:initsect.obj
+ 0001:0000b81c       _guard_check_icall_nop     000000018000c81c f i MSVCRT:guard_support.obj
+ 0001:0000b820       __isa_available_init       000000018000c820 f   MSVCRT:cpu_disp.obj
+ 0001:0000b9c4       _get_startup_argv_mode     000000018000c9c4 f   MSVCRT:argv_mode.obj
+ 0001:0000b9cc       __scrt_is_ucrt_dll_in_use  000000018000c9cc f   MSVCRT:ucrt_detection.obj
+ 0001:0000b9e0       memcpy                     000000018000c9e0 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000b9e6       __CxxFrameHandler4         000000018000c9e6 f   vcruntime:VCRUNTIME140_1.dll
+ 0001:0000b9ec       __C_specific_handler       000000018000c9ec f   vcruntime:VCRUNTIME140.dll
+ 0001:0000b9f2       __std_type_info_destroy_list 000000018000c9f2 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000b9f8       memset                     000000018000c9f8 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000b9fe       _initterm                  000000018000c9fe f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000ba04       _initterm_e                000000018000ca04 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000ba0a       _seh_filter_dll            000000018000ca0a f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000ba10       _configure_narrow_argv     000000018000ca10 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000ba16       _initialize_narrow_environment 000000018000ca16 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000ba1c       _initialize_onexit_table   000000018000ca1c f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000ba22       _execute_onexit_table      000000018000ca22 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000ba28       _cexit                     000000018000ca28 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000ba30       __acrt_uninitialize        000000018000ca30 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000ba30       __vcrt_thread_attach       000000018000ca30 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000ba30       __scrt_stub_for_acrt_thread_attach 000000018000ca30 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000ba30       __vcrt_uninitialize_critical 000000018000ca30 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000ba30       __acrt_thread_detach       000000018000ca30 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000ba30       __acrt_thread_attach       000000018000ca30 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000ba30       __acrt_initialize          000000018000ca30 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000ba30       __vcrt_uninitialize        000000018000ca30 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000ba30       __scrt_stub_for_acrt_uninitialize_critical 000000018000ca30 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000ba30       __vcrt_thread_detach       000000018000ca30 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000ba30       __scrt_stub_for_acrt_initialize 000000018000ca30 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000ba30       __scrt_stub_for_acrt_thread_detach 000000018000ca30 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000ba30       __vcrt_initialize          000000018000ca30 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000ba30       __scrt_stub_for_acrt_uninitialize 000000018000ca30 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000ba30       __acrt_uninitialize_critical 000000018000ca30 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000ba34       __scrt_stub_for_is_c_termination_complete 000000018000ca34 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000ba34       _is_c_termination_complete 000000018000ca34 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000ba50       _guard_dispatch_icall_nop  000000018000ca50 f   MSVCRT:guard_dispatch.obj
+ 0001:0000ba70       _guard_xfg_dispatch_icall_nop 000000018000ca70 f   MSVCRT:guard_xfg_dispatch.obj
+ 0002:00000000       __imp_FindClose            000000018000d000     kernel32:KERNEL32.dll
+ 0002:00000008       __imp_FindFirstFileA       000000018000d008     kernel32:KERNEL32.dll
+ 0002:00000010       __imp_FindNextFileA        000000018000d010     kernel32:KERNEL32.dll
+ 0002:00000018       __imp_GetFileAttributesA   000000018000d018     kernel32:KERNEL32.dll
+ 0002:00000020       __imp_GetLastError         000000018000d020     kernel32:KERNEL32.dll
+ 0002:00000028       __imp_QueryPerformanceCounter 000000018000d028     kernel32:KERNEL32.dll
+ 0002:00000030       __imp_QueryPerformanceFrequency 000000018000d030     kernel32:KERNEL32.dll
+ 0002:00000038       __imp_VirtualAlloc         000000018000d038     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_VirtualFree          000000018000d040     kernel32:KERNEL32.dll
+ 0002:00000048       __imp_FormatMessageA       000000018000d048     kernel32:KERNEL32.dll
+ 0002:00000050       __imp_GetLogicalDriveStringsA 000000018000d050     kernel32:KERNEL32.dll
+ 0002:00000058       __imp_RtlCaptureContext    000000018000d058     kernel32:KERNEL32.dll
+ 0002:00000060       __imp_RtlLookupFunctionEntry 000000018000d060     kernel32:KERNEL32.dll
+ 0002:00000068       __imp_RtlVirtualUnwind     000000018000d068     kernel32:KERNEL32.dll
+ 0002:00000070       __imp_UnhandledExceptionFilter 000000018000d070     kernel32:KERNEL32.dll
+ 0002:00000078       __imp_SetUnhandledExceptionFilter 000000018000d078     kernel32:KERNEL32.dll
+ 0002:00000080       __imp_GetCurrentProcess    000000018000d080     kernel32:KERNEL32.dll
+ 0002:00000088       __imp_TerminateProcess     000000018000d088     kernel32:KERNEL32.dll
+ 0002:00000090       __imp_IsProcessorFeaturePresent 000000018000d090     kernel32:KERNEL32.dll
+ 0002:00000098       __imp_GetCurrentProcessId  000000018000d098     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp_GetCurrentThreadId   000000018000d0a0     kernel32:KERNEL32.dll
+ 0002:000000a8       __imp_GetSystemTimeAsFileTime 000000018000d0a8     kernel32:KERNEL32.dll
+ 0002:000000b0       __imp_DisableThreadLibraryCalls 000000018000d0b0     kernel32:KERNEL32.dll
+ 0002:000000b8       __imp_InitializeSListHead  000000018000d0b8     kernel32:KERNEL32.dll
+ 0002:000000c0       __imp_IsDebuggerPresent    000000018000d0c0     kernel32:KERNEL32.dll
+ 0002:000000c8       \177KERNEL32_NULL_THUNK_DATA 000000018000d0c8     kernel32:KERNEL32.dll
+ 0002:000000d0       __imp_memcpy               000000018000d0d0     vcruntime:VCRUNTIME140.dll
+ 0002:000000d8       __imp_memset               000000018000d0d8     vcruntime:VCRUNTIME140.dll
+ 0002:000000e0       __imp___C_specific_handler 000000018000d0e0     vcruntime:VCRUNTIME140.dll
+ 0002:000000e8       __imp___std_type_info_destroy_list 000000018000d0e8     vcruntime:VCRUNTIME140.dll
+ 0002:000000f0       \177VCRUNTIME140_NULL_THUNK_DATA 000000018000d0f0     vcruntime:VCRUNTIME140.dll
+ 0002:000000f8       __imp___CxxFrameHandler4   000000018000d0f8     vcruntime:VCRUNTIME140_1.dll
+ 0002:00000100       \177VCRUNTIME140_1_NULL_THUNK_DATA 000000018000d100     vcruntime:VCRUNTIME140_1.dll
+ 0002:00000108       __imp_realloc              000000018000d108     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00000110       __imp_malloc               000000018000d110     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00000118       __imp_free                 000000018000d118     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00000120       __imp_calloc               000000018000d120     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00000128       \177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 000000018000d128     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00000130       __imp_fmodf                000000018000d130     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00000138       __imp_sinf                 000000018000d138     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00000140       __imp_tanf                 000000018000d140     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00000148       \177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 000000018000d148     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00000150       __imp_abort                000000018000d150     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000158       __imp__cexit               000000018000d158     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000160       __imp__initterm            000000018000d160     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000168       __imp__initterm_e          000000018000d168     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000170       __imp__seh_filter_dll      000000018000d170     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000178       __imp__configure_narrow_argv 000000018000d178     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000180       __imp__initialize_narrow_environment 000000018000d180     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000188       __imp__initialize_onexit_table 000000018000d188     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000190       __imp__execute_onexit_table 000000018000d190     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000198       \177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 000000018000d198     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000001a0       __imp_putchar              000000018000d1a0     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000001a8       __imp_fwrite               000000018000d1a8     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000001b0       __imp___acrt_iob_func      000000018000d1b0     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000001b8       __imp___stdio_common_vfprintf 000000018000d1b8     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000001c0       __imp___stdio_common_vsprintf 000000018000d1c0     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000001c8       \177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 000000018000d1c8     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000001d0       __guard_check_icall_fptr   000000018000d1d0     MSVCRT:guard_support.obj
+ 0002:000001d8       __guard_xfg_check_icall_fptr 000000018000d1d8     MSVCRT:guard_support.obj
+ 0002:000001e0       __guard_dispatch_icall_fptr 000000018000d1e0     MSVCRT:guard_support.obj
+ 0002:000001e8       __guard_xfg_dispatch_icall_fptr 000000018000d1e8     MSVCRT:guard_support.obj
+ 0002:000001f0       __guard_xfg_table_dispatch_icall_fptr 000000018000d1f0     MSVCRT:guard_support.obj
+ 0002:000001f8       __xc_a                     000000018000d1f8     MSVCRT:initializers.obj
+ 0002:00000208       __xc_z                     000000018000d208     MSVCRT:initializers.obj
+ 0002:00000210       __xi_a                     000000018000d210     MSVCRT:initializers.obj
+ 0002:00000218       __xi_z                     000000018000d218     MSVCRT:initializers.obj
+ 0002:00000220       __xp_a                     000000018000d220     MSVCRT:initializers.obj
+ 0002:00000228       __xp_z                     000000018000d228     MSVCRT:initializers.obj
+ 0002:00000230       __xt_a                     000000018000d230     MSVCRT:initializers.obj
+ 0002:00000238       __xt_z                     000000018000d238     MSVCRT:initializers.obj
+ 0002:00001230       ??_C@_04GBBGJLMB@?$CF?45f@ 000000018000e230     game.obj
+ 0002:00001238       ??_C@_0BA@EKHMOAP@?$CImissing?5input?$CJ@ 000000018000e238     game.obj
+ 0002:00001248       ??_C@_0BD@BBEFDHLK@?$CI?$CF?45f?0?5?$CF?45f?0?5?$CF?45f?$CJ@ 000000018000e248     game.obj
+ 0002:00001260       ??_C@_0DC@JKFGPD@OUT?5OF?5BOUNDS?$CB?5expected?5between@ 000000018000e260     game.obj
+ 0002:00001298       ??_C@_0BB@BMBDIIJG@str?3?3operator?5?$FL?$FN@ 000000018000e298     game.obj
+ 0002:000012b0       ??_C@_0CJ@KOPGFBJP@F?3?2C?$CL?$CLProject?2MiniRPG?2src?2GyoUt@ 000000018000e2b0     game.obj
+ 0002:000012e0       ??_C@_0CH@HGLNBEDD@?$CI?$CIi?$CJ?5?$DO?$DN?5?$CI0?$CJ?$CJ?5?$CG?$CG?5?$CI?$CIi?$CJ?5?$DM?5?$CI?$CI0?$CJ?5?$CL?5?$CI@ 000000018000e2e0     game.obj
+ 0002:00001308       ??_C@_0BH@LLCIEOEC@?$CD?$CD?$CD?5Assertion?5failed?3?5@ 000000018000e308     game.obj
+ 0002:00001320       ??_C@_0O@IANHEMJ@?5?5?5?5Code?3?5?8?$CF?8@ 000000018000e320     game.obj
+ 0002:00001330       ??_C@_0M@EHDLJHEO@?5?5?5?5File?3?5?$CF@ 000000018000e330     game.obj
+ 0002:00001340       ??_C@_0M@JLDDCKIN@?5?5?5?5Line?3?5?$CF@ 000000018000e340     game.obj
+ 0002:00001350       ??_C@_0BA@KOPDMLFK@?5?5?5?5Function?3?5?$CF@ 000000018000e350     game.obj
+ 0002:00001360       ??_C@_0N@JIEJGDCB@Stack?5Trace?3@ 000000018000e360     game.obj
+ 0002:00001370       __real@00000000            000000018000e370     game.obj
+ 0002:00001374       __real@3a83126f            000000018000e374     game.obj
+ 0002:00001378       __real@3b03126f            000000018000e378     game.obj
+ 0002:0000137c       __real@3c23d70a            000000018000e37c     game.obj
+ 0002:00001380       __real@3c8efa35            000000018000e380     game.obj
+ 0002:00001384       __real@3e666666            000000018000e384     game.obj
+ 0002:00001388       __real@3e800000            000000018000e388     game.obj
+ 0002:0000138c       __real@3f000000            000000018000e38c     game.obj
+ 0002:00001390       __real@3f800000            000000018000e390     game.obj
+ 0002:00001398       __real@3fe0000000000000    000000018000e398     game.obj
+ 0002:000013a0       __real@40000000            000000018000e3a0     game.obj
+ 0002:000013a4       __real@40800000            000000018000e3a4     game.obj
+ 0002:000013a8       __real@408f400000000000    000000018000e3a8     game.obj
+ 0002:000013b0       __real@40c00000            000000018000e3b0     game.obj
+ 0002:000013b4       __real@41000000            000000018000e3b4     game.obj
+ 0002:000013b8       __real@41800000            000000018000e3b8     game.obj
+ 0002:000013bc       __real@42340000            000000018000e3bc     game.obj
+ 0002:000013c0       __real@42700000            000000018000e3c0     game.obj
+ 0002:000013c4       __real@42b40000            000000018000e3c4     game.obj
+ 0002:000013c8       __real@42c80000            000000018000e3c8     game.obj
+ 0002:000013cc       __real@42f00000            000000018000e3cc     game.obj
+ 0002:000013d0       __real@43160000            000000018000e3d0     game.obj
+ 0002:000013d4       __real@43340000            000000018000e3d4     game.obj
+ 0002:000013d8       __real@43700000            000000018000e3d8     game.obj
+ 0002:000013dc       __real@43960000            000000018000e3dc     game.obj
+ 0002:000013e0       __real@43a00000            000000018000e3e0     game.obj
+ 0002:000013e4       __real@43b40000            000000018000e3e4     game.obj
+ 0002:000013e8       __real@43f00000            000000018000e3e8     game.obj
+ 0002:000013ec       __real@4cbebc20            000000018000e3ec     game.obj
+ 0002:000013f0       __real@4e6e6b28            000000018000e3f0     game.obj
+ 0002:000013f4       __real@bf800000            000000018000e3f4     game.obj
+ 0002:000013f8       __real@c0c00000            000000018000e3f8     game.obj
+ 0002:00001400       __xmm@437f0000437f0000437f0000437f0000 000000018000e400     game.obj
+ 0002:00001410       __xmm@80000000800000008000000080000000 000000018000e410     game.obj
+ 0002:00001420       _pDefaultRawDllMain        000000018000e420     MSVCRT:dll_dllmain.obj
+ 0002:00001420       _pRawDllMain               000000018000e420     MSVCRT:dll_dllmain.obj
+ 0002:00001440       __xmm@ffffffffffffffffffffffffffffffff 000000018000e440     MSVCRT:utility.obj
+ 0002:000014b0       _load_config_used          000000018000e4b0     MSVCRT:loadcfg.obj
+ 0002:00001600       __volatile_metadata        000000018000e600     <linker-defined>
+ 0002:000019a8       __rtc_iaa                  000000018000e9a8     MSVCRT:initsect.obj
+ 0002:000019b0       __rtc_izz                  000000018000e9b0     MSVCRT:initsect.obj
+ 0002:000019b8       __rtc_taa                  000000018000e9b8     MSVCRT:initsect.obj
+ 0002:000019c0       __rtc_tzz                  000000018000e9c0     MSVCRT:initsect.obj
+ 0002:000024e4       __IMPORT_DESCRIPTOR_KERNEL32 000000018000f4e4     kernel32:KERNEL32.dll
+ 0002:000024f8       __IMPORT_DESCRIPTOR_VCRUNTIME140 000000018000f4f8     vcruntime:VCRUNTIME140.dll
+ 0002:0000250c       __IMPORT_DESCRIPTOR_VCRUNTIME140_1 000000018000f50c     vcruntime:VCRUNTIME140_1.dll
+ 0002:00002520       __IMPORT_DESCRIPTOR_api-ms-win-crt-math-l1-1-0 000000018000f520     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00002534       __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 000000018000f534     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00002548       __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 000000018000f548     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:0000255c       __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0 000000018000f55c     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00002570       __NULL_IMPORT_DESCRIPTOR   000000018000f570     kernel32:KERNEL32.dll
+ 0003:00000000       ?AllocOpStrings@@3PAPEBDA  0000000180010000     game.obj
+ 0003:00000038       ?default_allocator@@3UAllocator@@A 0000000180010038     game.obj
+ 0003:00000048       ?temporary_allocator@@3UAllocator@@A 0000000180010048     game.obj
+ 0003:00000060       __security_cookie_complement 0000000180010060     MSVCRT:gs_cookie.obj
+ 0003:00000068       __security_cookie          0000000180010068     MSVCRT:gs_cookie.obj
+ 0003:00000070       _fltused                   0000000180010070     MSVCRT:fltused.obj
+ 0003:00000074       __scrt_native_dllmain_reason 0000000180010074     MSVCRT:utility.obj
+ 0003:00000078       __isa_available            0000000180010078     MSVCRT:cpu_disp.obj
+ 0003:0000007c       __isa_enabled              000000018001007c     MSVCRT:cpu_disp.obj
+ 0003:00000080       __memcpy_nt_iters          0000000180010080     MSVCRT:cpu_disp.obj
+ 0003:00000088       __memset_nt_iters          0000000180010088     MSVCRT:cpu_disp.obj
+ 0003:00000090       __scrt_ucrt_dll_is_in_use  0000000180010090     MSVCRT:ucrt_stubs.obj
+ 0003:000000a0       ?__buffer_index@@3HA       00000001800100a0     game.obj
+ 0003:000000a4       ?_current_parent_index@@3HA 00000001800100a4     game.obj
+ 0003:000000a8       ?_profile_start@@3_KA      00000001800100a8     game.obj
+ 0003:000000b0       ?__print_buff@@3PADA       00000001800100b0     game.obj
+ 0003:000001b0       ?_anchors@@3PAUTimeAnchor@@A 00000001800101b0     game.obj
+ 0003:000201b0       ?_profile_end@@3_KA        00000001800301b0     game.obj
+ 0003:000201b8       ?a@@3MA                    00000001800301b8     game.obj
+ 0003:000201c0       ?tracking_infos@@3PEAUTrackingInfo@@EA 00000001800301c0     game.obj
+ 0003:000201c8       ?current_tracking_index@@3PEAHEA 00000001800301c8     game.obj
+ 0003:000201d0       ?temporary_arena@@3UArena@@A 00000001800301d0     game.obj
+ 0003:000201f0       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 00000001800301f0     game.obj
+ 0003:00020770       ?__type_info_root_node@@3U__type_info_node@@A 0000000180030770     MSVCRT:tncleanup.obj
+ 0003:00020780       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 0000000180030780     MSVCRT:default_local_stdio_options.obj
+ 0003:00020788       __scrt_current_native_startup_state 0000000180030788     MSVCRT:utility.obj
+ 0003:00020790       __scrt_native_startup_lock 0000000180030790     MSVCRT:utility.obj
+ 0003:000207d0       __scrt_debugger_hook_flag  00000001800307d0     MSVCRT:utility_desktop.obj
+ 0003:000207d8       __castguard_check_failure_os_handled_fptr 00000001800307d8     MSVCRT:guard_support.obj
+ 0003:000207e0       __favor                    00000001800307e0     MSVCRT:cpu_disp.obj
+ 0003:000207e8       __dyn_tls_init_callback    00000001800307e8     <common>
+
+ entry point at        0001:0000b050
+
+ Static symbols
+
+ 0000:fffcd000       .debug$S                   0000000180000000     game.exp
+ 0000:fffcd000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140_1.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:fffcd000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0001:00000000       ??__Etemporary_arena@@YAXXZ 0000000180001000 f   game.obj
+ 0001:00005930       ?get_os_timer_freq@@YA_KXZ 0000000180006930 f   game.obj
+ 0001:00005950       ?read_os_timer@@YA_KXZ     0000000180006950 f   game.obj
+ 0001:00006810       ??R<lambda_1>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@QEBA@XZ 0000000180007810 f   game.obj
+ 0001:00006840       ??0<lambda_1>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@QEAA@AEAUStrBuilder@@@Z 0000000180007840 f   game.obj
+ 0001:00006870       ??0?$ScopeExit@V<lambda_1>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@V<lambda_1>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@Z 0000000180007870 f   game.obj
+ 0001:000068a0       ??1?$ScopeExit@V<lambda_1>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 00000001800078a0 f   game.obj
+ 0001:000068d0       ??R<lambda_2>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@QEBA@XZ 00000001800078d0 f   game.obj
+ 0001:00006900       ??0<lambda_2>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@QEAA@AEAPEAX@Z 0000000180007900 f   game.obj
+ 0001:00006930       ??0?$ScopeExit@V<lambda_2>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@V<lambda_2>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@Z 0000000180007930 f   game.obj
+ 0001:00006960       ??1?$ScopeExit@V<lambda_2>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 0000000180007960 f   game.obj
+ 0001:00006990       ??R<lambda_3>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@QEBA@XZ 0000000180007990 f   game.obj
+ 0001:000069c0       ??0<lambda_3>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@QEAA@AEAUStrBuilder@@@Z 00000001800079c0 f   game.obj
+ 0001:000069f0       ??0?$ScopeExit@V<lambda_3>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@V<lambda_3>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@Z 00000001800079f0 f   game.obj
+ 0001:00006a20       ??1?$ScopeExit@V<lambda_3>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 0000000180007a20 f   game.obj
+ 0001:00006fd0       ??R<lambda_1>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@QEBA@XZ 0000000180007fd0 f   game.obj
+ 0001:00007000       ??0<lambda_1>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@QEAA@AEAUStrBuilder@@@Z 0000000180008000 f   game.obj
+ 0001:00007030       ??0?$ScopeExit@V<lambda_1>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@V<lambda_1>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@Z 0000000180008030 f   game.obj
+ 0001:00007060       ??1?$ScopeExit@V<lambda_1>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 0000000180008060 f   game.obj
+ 0001:00007090       ??R<lambda_2>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@QEBA@XZ 0000000180008090 f   game.obj
+ 0001:000070c0       ??0<lambda_2>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@QEAA@AEAPEAX@Z 00000001800080c0 f   game.obj
+ 0001:000070f0       ??0?$ScopeExit@V<lambda_2>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@V<lambda_2>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@Z 00000001800080f0 f   game.obj
+ 0001:00007120       ??1?$ScopeExit@V<lambda_2>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 0000000180008120 f   game.obj
+ 0001:00007150       ??R<lambda_3>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@QEBA@XZ 0000000180008150 f   game.obj
+ 0001:00007180       ??0<lambda_3>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@QEAA@AEAUStrBuilder@@@Z 0000000180008180 f   game.obj
+ 0001:000071b0       ??0?$ScopeExit@V<lambda_3>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@V<lambda_3>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@Z 00000001800081b0 f   game.obj
+ 0001:000071e0       ??1?$ScopeExit@V<lambda_3>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 00000001800081e0 f   game.obj
+ 0001:00007c00       ??$?6V<lambda_1>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@<unnamed-type-the_trick_that_lets_us_concatenate>@@QEAA?AU?$ScopeExit@V<lambda_1>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@V<lambda_1>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@Z 0000000180008c00 f   game.obj
+ 0001:00007c40       ??$?6V<lambda_1>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@<unnamed-type-the_trick_that_lets_us_concatenate>@@QEAA?AU?$ScopeExit@V<lambda_1>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@V<lambda_1>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@Z 0000000180008c40 f   game.obj
+ 0001:00007c80       ??$?6V<lambda_2>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@<unnamed-type-the_trick_that_lets_us_concatenate>@@QEAA?AU?$ScopeExit@V<lambda_2>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@V<lambda_2>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@Z 0000000180008c80 f   game.obj
+ 0001:00007cc0       ??$?6V<lambda_2>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@<unnamed-type-the_trick_that_lets_us_concatenate>@@QEAA?AU?$ScopeExit@V<lambda_2>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@V<lambda_2>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@Z 0000000180008cc0 f   game.obj
+ 0001:00007d00       ??$?6V<lambda_3>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@<unnamed-type-the_trick_that_lets_us_concatenate>@@QEAA?AU?$ScopeExit@V<lambda_3>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@V<lambda_3>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@Z 0000000180008d00 f   game.obj
+ 0001:00007d40       ??$?6V<lambda_3>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@<unnamed-type-the_trick_that_lets_us_concatenate>@@QEAA?AU?$ScopeExit@V<lambda_3>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@V<lambda_3>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@Z 0000000180008d40 f   game.obj
+ 0001:0000ad00       $$000000                   000000018000bd00     MSVCRT:amdsecgs.obj
+ 0001:0000ad30       ?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000bd30 f   MSVCRT:dll_dllmain.obj
+ 0001:0000ad80       ?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 000000018000bd80 f   MSVCRT:dll_dllmain.obj
+ 0001:0000ae98       ?dllmain_crt_process_detach@@YAH_N@Z 000000018000be98 f   MSVCRT:dll_dllmain.obj
+ 0001:0000af1c       ?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000bf1c f   MSVCRT:dll_dllmain.obj
+ 0001:0000b198       capture_previous_context   000000018000c198 f   MSVCRT:gs_report.obj
+ 0001:0000ba40       $$000000                   000000018000ca40     MSVCRT:guard_dispatch.obj
+ 0001:0000ba60       $$000000                   000000018000ca60     MSVCRT:guard_xfg_dispatch.obj
+ 0001:0000ba80       ?dtor$0@?0??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@4HA 000000018000ca80 f   game.obj
+ 0001:0000ba98       ?dtor$1@?0??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@4HA 000000018000ca98 f   game.obj
+ 0001:0000bab0       ?dtor$2@?0??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@4HA 000000018000cab0 f   game.obj
+ 0001:0000bac8       ?dtor$0@?0??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@4HA 000000018000cac8 f   game.obj
+ 0001:0000bae0       ?dtor$1@?0??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@4HA 000000018000cae0 f   game.obj
+ 0001:0000baf8       ?dtor$2@?0??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@4HA 000000018000caf8 f   game.obj
+ 0001:0000bb10       ?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 000000018000cb10 f   MSVCRT:dll_dllmain.obj
+ 0001:0000bb27       ?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018000cb27 f   MSVCRT:dll_dllmain.obj
+ 0001:0000bb40       ?fin$1@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018000cb40 f   MSVCRT:dll_dllmain.obj
+ 0001:0000bb54       ?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 000000018000cb54 f   MSVCRT:dll_dllmain.obj
+ 0001:0000bb8a       __scrt_is_nonwritable_in_current_image$filt$0 000000018000cb8a f   MSVCRT:utility.obj
+ 0002:00000200       ?temporary_arena$initializer$@@3P6AXXZEA 000000018000d200     game.obj
+ 0002:00000240       $SG109933                  000000018000d240     game.obj
+ 0002:00000248       $SG109936                  000000018000d248     game.obj
+ 0002:00000258       $SG109937                  000000018000d258     game.obj
+ 0002:00000260       $SG109939                  000000018000d260     game.obj
+ 0002:00000268       $SG109940                  000000018000d268     game.obj
+ 0002:0000026c       $SG109941                  000000018000d26c     game.obj
+ 0002:00000270       $SG109942                  000000018000d270     game.obj
+ 0002:0000027c       $SG109973                  000000018000d27c     game.obj
+ 0002:00000280       $SG109943                  000000018000d280     game.obj
+ 0002:0000028c       $SG110178                  000000018000d28c     game.obj
+ 0002:00000290       $SG109946                  000000018000d290     game.obj
+ 0002:0000029c       $SG110335                  000000018000d29c     game.obj
+ 0002:000002a0       $SG109947                  000000018000d2a0     game.obj
+ 0002:000002b8       $SG109951                  000000018000d2b8     game.obj
+ 0002:000002c4       $SG110345                  000000018000d2c4     game.obj
+ 0002:000002c8       $SG109952                  000000018000d2c8     game.obj
+ 0002:000002d8       $SG109968                  000000018000d2d8     game.obj
+ 0002:000002e0       $SG109970                  000000018000d2e0     game.obj
+ 0002:000002e8       $SG109972                  000000018000d2e8     game.obj
+ 0002:000002f0       $SG109993                  000000018000d2f0     game.obj
+ 0002:00000300       $SG109995                  000000018000d300     game.obj
+ 0002:00000310       $SG109997                  000000018000d310     game.obj
+ 0002:00000320       $SG109998                  000000018000d320     game.obj
+ 0002:0000032c       $SG110181                  000000018000d32c     game.obj
+ 0002:00000334       $SG110338                  000000018000d334     game.obj
+ 0002:0000033c       $SG110347                  000000018000d33c     game.obj
+ 0002:00000340       $SG110367                  000000018000d340     game.obj
+ 0002:00000370       $SG110368                  000000018000d370     game.obj
+ 0002:00000380       $SG110369                  000000018000d380     game.obj
+ 0002:000003b4       $SG22225                   000000018000d3b4     game.obj
+ 0002:000003b8       $SG110370                  000000018000d3b8     game.obj
+ 0002:000003c8       $SG111061                  000000018000d3c8     game.obj
+ 0002:000003e0       $SG111078                  000000018000d3e0     game.obj
+ 0002:000003f8       $SG111095                  000000018000d3f8     game.obj
+ 0002:00000410       $SG111134                  000000018000d410     game.obj
+ 0002:00000428       $SG111164                  000000018000d428     game.obj
+ 0002:00000440       $SG111198                  000000018000d440     game.obj
+ 0002:00000458       $SG111219                  000000018000d458     game.obj
+ 0002:00000470       $SG111244                  000000018000d470     game.obj
+ 0002:00000488       $SG111260                  000000018000d488     game.obj
+ 0002:000004b8       $SG111261                  000000018000d4b8     game.obj
+ 0002:000004c8       $SG111262                  000000018000d4c8     game.obj
+ 0002:000004f4       $SG23497                   000000018000d4f4     game.obj
+ 0002:000004f8       $SG111263                  000000018000d4f8     game.obj
+ 0002:00000528       $SG111275                  000000018000d528     game.obj
+ 0002:00000540       $SG111292                  000000018000d540     game.obj
+ 0002:00000558       $SG111330                  000000018000d558     game.obj
+ 0002:00000570       $SG111360                  000000018000d570     game.obj
+ 0002:00000588       $SG111377                  000000018000d588     game.obj
+ 0002:000005a0       $SG111402                  000000018000d5a0     game.obj
+ 0002:000005b8       $SG111419                  000000018000d5b8     game.obj
+ 0002:000005d0       $SG111440                  000000018000d5d0     game.obj
+ 0002:000005e8       $SG111457                  000000018000d5e8     game.obj
+ 0002:00000600       $SG111468                  000000018000d600     game.obj
+ 0002:00000630       $SG111469                  000000018000d630     game.obj
+ 0002:00000640       $SG111470                  000000018000d640     game.obj
+ 0002:0000066c       $SG23506                   000000018000d66c     game.obj
+ 0002:00000670       $SG111471                  000000018000d670     game.obj
+ 0002:00000684       $SG23515                   000000018000d684     game.obj
+ 0002:00000688       $SG111484                  000000018000d688     game.obj
+ 0002:000006a0       $SG111501                  000000018000d6a0     game.obj
+ 0002:000006b8       $SG22213                   000000018000d6b8     game.obj
+ 0002:000006c4       $SG22471                   000000018000d6c4     game.obj
+ 0002:000006cc       $SG23533                   000000018000d6cc     game.obj
+ 0002:000006d0       $SG22321                   000000018000d6d0     game.obj
+ 0002:000006e0       $SG22360                   000000018000d6e0     game.obj
+ 0002:000007b4       $SG23542                   000000018000d7b4     game.obj
+ 0002:000007b8       $SG22361                   000000018000d7b8     game.obj
+ 0002:000007c8       $SG22362                   000000018000d7c8     game.obj
+ 0002:000007f4       $SG23551                   000000018000d7f4     game.obj
+ 0002:000007f8       $SG22363                   000000018000d7f8     game.obj
+ 0002:00000828       $SG22436                   000000018000d828     game.obj
+ 0002:00000834       $SG22466                   000000018000d834     game.obj
+ 0002:00000840       $SG22435                   000000018000d840     game.obj
+ 0002:000008a8       $SG22437                   000000018000d8a8     game.obj
+ 0002:000008d8       $SG22438                   000000018000d8d8     game.obj
+ 0002:000008f0       $SG22467                   000000018000d8f0     game.obj
+ 0002:000008f8       $SG22468                   000000018000d8f8     game.obj
+ 0002:00000900       $SG22469                   000000018000d900     game.obj
+ 0002:0000090c       $SG22470                   000000018000d90c     game.obj
+ 0002:00000918       $SG22472                   000000018000d918     game.obj
+ 0002:00000928       $SG22491                   000000018000d928     game.obj
+ 0002:00000960       $SG22492                   000000018000d960     game.obj
+ 0002:00000970       $SG22493                   000000018000d970     game.obj
+ 0002:000009a0       $SG22494                   000000018000d9a0     game.obj
+ 0002:000009d8       $SG22507                   000000018000d9d8     game.obj
+ 0002:000009e0       $SG22508                   000000018000d9e0     game.obj
+ 0002:000009e8       $SG22562                   000000018000d9e8     game.obj
+ 0002:00000a08       $SG22627                   000000018000da08     game.obj
+ 0002:00000a18       $SG22639                   000000018000da18     game.obj
+ 0002:00000a50       $SG22563                   000000018000da50     game.obj
+ 0002:00000a98       $SG22631                   000000018000da98     game.obj
+ 0002:00000ad8       $SG22632                   000000018000dad8     game.obj
+ 0002:00000ae8       $SG22633                   000000018000dae8     game.obj
+ 0002:00000b18       $SG22636                   000000018000db18     game.obj
+ 0002:00000b28       $SG22761                   000000018000db28     game.obj
+ 0002:00000b38       $SG22847                   000000018000db38     game.obj
+ 0002:00000b50       $SG22634                   000000018000db50     game.obj
+ 0002:00000b98       $SG22637                   000000018000db98     game.obj
+ 0002:00000ba8       $SG22638                   000000018000dba8     game.obj
+ 0002:00000bd8       $SG22697                   000000018000dbd8     game.obj
+ 0002:00000bf8       $SG22823                   000000018000dbf8     game.obj
+ 0002:00000c08       $SG23080                   000000018000dc08     game.obj
+ 0002:00000c30       $SG22698                   000000018000dc30     game.obj
+ 0002:00000c78       $SG23081                   000000018000dc78     game.obj
+ 0002:00000c88       $SG23082                   000000018000dc88     game.obj
+ 0002:00000cb8       $SG23083                   000000018000dcb8     game.obj
+ 0002:00000cd8       $SG23156                   000000018000dcd8     game.obj
+ 0002:00000cf0       $SG23157                   000000018000dcf0     game.obj
+ 0002:00000d00       $SG23158                   000000018000dd00     game.obj
+ 0002:00000d30       $SG23159                   000000018000dd30     game.obj
+ 0002:00000d60       $SG23160                   000000018000dd60     game.obj
+ 0002:00000d78       $SG23161                   000000018000dd78     game.obj
+ 0002:00000d88       $SG23162                   000000018000dd88     game.obj
+ 0002:00000db8       $SG23163                   000000018000ddb8     game.obj
+ 0002:00000dd8       $SG23327                   000000018000ddd8     game.obj
+ 0002:00000df0       $SG23328                   000000018000ddf0     game.obj
+ 0002:00000e08       $SG23329                   000000018000de08     game.obj
+ 0002:00000e38       $SG23330                   000000018000de38     game.obj
+ 0002:00000e58       $SG23434                   000000018000de58     game.obj
+ 0002:00000e70       $SG23433                   000000018000de70     game.obj
+ 0002:00000ec8       $SG23435                   000000018000dec8     game.obj
+ 0002:00000ef8       $SG23436                   000000018000def8     game.obj
+ 0002:00000f10       $SG23460                   000000018000df10     game.obj
+ 0002:00000f48       $SG23461                   000000018000df48     game.obj
+ 0002:00000f60       $SG23462                   000000018000df60     game.obj
+ 0002:00000f90       $SG23463                   000000018000df90     game.obj
+ 0002:00000fb0       $SG23482                   000000018000dfb0     game.obj
+ 0002:00000fb8       $SG23483                   000000018000dfb8     game.obj
+ 0002:00000fc0       $SG23524                   000000018000dfc0     game.obj
+ 0002:00000fc8       $SG23560                   000000018000dfc8     game.obj
+ 0002:00000fd0       $SG23569                   000000018000dfd0     game.obj
+ 0002:00000fd8       $SG23578                   000000018000dfd8     game.obj
+ 0002:00000fe0       $SG23586                   000000018000dfe0     game.obj
+ 0002:00000fe8       $SG23612                   000000018000dfe8     game.obj
+ 0002:00001008       $SG23613                   000000018000e008     game.obj
+ 0002:00001020       $SG23614                   000000018000e020     game.obj
+ 0002:00001050       $SG23615                   000000018000e050     game.obj
+ 0002:00001078       $SG23621                   000000018000e078     game.obj
+ 0002:00001098       $SG23622                   000000018000e098     game.obj
+ 0002:000010b0       $SG23623                   000000018000e0b0     game.obj
+ 0002:000010e0       $SG23624                   000000018000e0e0     game.obj
+ 0002:00001100       $SG23752                   000000018000e100     game.obj
+ 0002:00001148       $SG23753                   000000018000e148     game.obj
+ 0002:00001160       $SG23754                   000000018000e160     game.obj
+ 0002:00001190       $SG23755                   000000018000e190     game.obj
+ 0002:000011a0       $SG23775                   000000018000e1a0     game.obj
+ 0002:000011c8       $SG23776                   000000018000e1c8     game.obj
+ 0002:000011e0       $SG23777                   000000018000e1e0     game.obj
+ 0002:00001210       $SG23778                   000000018000e210     game.obj
+ 0002:00001220       $SG23797                   000000018000e220     game.obj
+ 0002:00001228       $SG23799                   000000018000e228     game.obj
+ 0002:00001428       GS_ExceptionPointers       000000018000e428     MSVCRT:gs_report.obj
+ 0002:000019c8       $unwind$??$accumulate_into_buffer@HMHM@@YAXPEBDHMHM@Z 000000018000e9c8     game.obj
+ 0002:000019c8       $unwind$??$printsl@HMHM@@YAXPEBDHMHM@Z 000000018000e9c8     game.obj
+ 0002:000019c8       $unwind$_vfprintf_l        000000018000e9c8     game.obj
+ 0002:000019c8       $unwind$snprintf           000000018000e9c8     game.obj
+ 0002:000019d0       $unwind$printf             000000018000e9d0     game.obj
+ 0002:000019d0       $unwind$vsnprintf          000000018000e9d0     game.obj
+ 0002:000019d8       $unwind$?cos_turns@@YAMM@Z 000000018000e9d8     game.obj
+ 0002:000019d8       $unwind$?sin@@YAMM@Z       000000018000e9d8     game.obj
+ 0002:000019d8       $unwind$?sin_turns@@YAMM@Z 000000018000e9d8     game.obj
+ 0002:000019d8       $unwind$?tan@@YAMM@Z       000000018000e9d8     game.obj
+ 0002:000019e0       $unwind$?u64_to_char_ptr@@YAH_KPEAD@Z 000000018000e9e0     game.obj
+ 0002:000019f0       $unwind$?s64_to_char_ptr@@YAH_JPEAD@Z 000000018000e9f0     game.obj
+ 0002:000019f8       $unwind$?s32_to_char_ptr@@YAHHPEAD@Z 000000018000e9f8     game.obj
+ 0002:00001a00       $unwind$?u32_to_char_ptr@@YAHIPEAD@Z 000000018000ea00     game.obj
+ 0002:00001a08       $unwind$?u16_to_char_ptr@@YAHGPEAD@Z 000000018000ea08     game.obj
+ 0002:00001a10       $unwind$?u8_to_char_ptr@@YAHEPEAD@Z 000000018000ea10     game.obj
+ 0002:00001a18       $unwind$?s16_to_char_ptr@@YAHFPEAD@Z 000000018000ea18     game.obj
+ 0002:00001a20       $unwind$?s8_to_char_ptr@@YAHCPEAD@Z 000000018000ea20     game.obj
+ 0002:00001a28       $unwind$?printsl_custom@@YAXUbivec@@@Z 000000018000ea28     game.obj
+ 0002:00001a30       $unwind$?printsl_custom@@YAXUtrivec@@@Z 000000018000ea30     game.obj
+ 0002:00001a38       $unwind$?vec3_wedge@@YA?AUbivec@@Uvec3@@0@Z 000000018000ea38     game.obj
+ 0002:00001a4c       $unwind$?bivec_dual@@YA?AUvec3@@Ubivec@@@Z 000000018000ea4c     game.obj
+ 0002:00001a58       $unwind$?bivec_dual@@YA?AUbivec@@Uvec3@@@Z 000000018000ea58     game.obj
+ 0002:00001a6c       $unwind$?printsl_custom@@YAXUrotor@@@Z 000000018000ea6c     game.obj
+ 0002:00001a74       $unwind$?rotor_from_to@@YA?AUrotor@@Uvec3@@0@Z 000000018000ea74     game.obj
+ 0002:00001a88       $unwind$?rotor_from_axis_angle@@YA?AUrotor@@Uvec3@@M@Z 000000018000ea88     game.obj
+ 0002:00001a9c       $unwind$?rotor_from_turns@@YA?AUrotor@@Ubivec@@@Z 000000018000ea9c     game.obj
+ 0002:00001ab0       $unwind$?rotor_combine@@YA?AUrotor@@U1@0@Z 000000018000eab0     game.obj
+ 0002:00001ac4       $unwind$?rotor_reverse@@YA?AUrotor@@U1@@Z 000000018000eac4     game.obj
+ 0002:00001ad8       $unwind$?vec3_rotate@@YA?AUvec3@@U1@Urotor@@@Z 000000018000ead8     game.obj
+ 0002:00001ae4       $unwind$?make_matrix_from_rotor@@YA?AUmat4@@Urotor@@@Z 000000018000eae4     game.obj
+ 0002:00001af0       $unwind$?to_string@@YAPEBDW4AllocOp@@@Z 000000018000eaf0     game.obj
+ 0002:00001af8       $unwind$?printsl_custom@@YAXW4AllocOp@@@Z 000000018000eaf8     game.obj
+ 0002:00001b00       $unwind$?printsl_custom@@YAXUBump@@@Z 000000018000eb00     game.obj
+ 0002:00001b08       $unwind$?bump_reset@@YAXPEAUBump@@@Z 000000018000eb08     game.obj
+ 0002:00001b14       $unwind$?bump_handle@@YAPEAXW4AllocOp@@PEAXHH1@Z 000000018000eb14     game.obj
+ 0002:00001b20       $unwind$?make_bump_allocator@@YA?AUBump@@PEAXH@Z 000000018000eb20     game.obj
+ 0002:00001b34       $unwind$?make_bump_allocator@@YA?AUBump@@H@Z 000000018000eb34     game.obj
+ 0002:00001b48       $unwind$?mem_free_all@@YAXPEAUBump@@@Z 000000018000eb48     game.obj
+ 0002:00001b50       $unwind$?mem_alloc@@YAPEAXPEAUBump@@H@Z 000000018000eb50     game.obj
+ 0002:00001b58       $unwind$?printsl_custom@@YAXUArena@@@Z 000000018000eb58     game.obj
+ 0002:00001b60       $unwind$?arena_get_header_before_data@@YAPEAUArenaHeader@@PEAX@Z 000000018000eb60     game.obj
+ 0002:00001b68       $unwind$?arena_prepare_new_memory_block@@YAPEAXPEAUArena@@HPEAUArenaHeader@@@Z 000000018000eb68     game.obj
+ 0002:00001b70       $unwind$?arena_handle@@YAPEAXW4AllocOp@@PEAXHH1@Z 000000018000eb70     game.obj
+ 0002:00001b78       $unwind$?make_arena_allocator@@YA?AUArena@@H@Z 000000018000eb78     game.obj
+ 0002:00001b8c       $unwind$?mem_free_all@@YAXPEAUArena@@@Z 000000018000eb8c     game.obj
+ 0002:00001b94       $unwind$?mem_alloc@@YAPEAXPEAUArena@@H@Z 000000018000eb94     game.obj
+ 0002:00001b9c       $unwind$?mem_realloc@@YAPEAXPEAUArena@@PEAXH@Z 000000018000eb9c     game.obj
+ 0002:00001ba4       $unwind$?mem_realloc@@YAPEAXPEAUArena@@PEAXHH@Z 000000018000eba4     game.obj
+ 0002:00001bac       $unwind$?printsl_custom@@YAXUAllocator@@@Z 000000018000ebac     game.obj
+ 0002:00001bb4       $unwind$?make_allocator@@YA?AUAllocator@@PEAUBump@@@Z 000000018000ebb4     game.obj
+ 0002:00001bc0       $unwind$?make_allocator@@YA?AUAllocator@@PEAUArena@@@Z 000000018000ebc0     game.obj
+ 0002:00001bcc       $unwind$?default_handle@@YAPEAXW4AllocOp@@PEAXHH1@Z 000000018000ebcc     game.obj
+ 0002:00001bd4       $unwind$?mem_alloc@@YAPEAXUAllocator@@H@Z 000000018000ebd4     game.obj
+ 0002:00001bdc       $unwind$?mem_realloc@@YAPEAXUAllocator@@HHPEAX@Z 000000018000ebdc     game.obj
+ 0002:00001be4       $unwind$?mem_free@@YAPEAXUAllocator@@PEAX@Z 000000018000ebe4     game.obj
+ 0002:00001bec       $unwind$?unicode_is_header@@YA_NE@Z 000000018000ebec     game.obj
+ 0002:00001bf4       $unwind$?unicode_utf8_to_codepoint@@YAIPEAE@Z 000000018000ebf4     game.obj
+ 0002:00001bfc       $unwind$?c_string_length@@YAHPEBD@Z 000000018000ebfc     game.obj
+ 0002:00001c04       $unwind$?str_to_c_string@@YAPEBDUstr@@UAllocator@@@Z 000000018000ec04     game.obj
+ 0002:00001c10       $unwind$?str_to_c_string@@YAPEBDUstr@@@Z 000000018000ec10     game.obj
+ 0002:00001c1c       $unwind$?str_concat@@YA?AUstr@@U1@0UAllocator@@@Z 000000018000ec1c     game.obj
+ 0002:00001c28       $unwind$?str_concat@@YA?AUstr@@U1@0@Z 000000018000ec28     game.obj
+ 0002:00001c34       $unwind$?str_copy@@YA?AUstr@@U1@UAllocator@@@Z 000000018000ec34     game.obj
+ 0002:00001c40       $unwind$?str_copy@@YA?AUstr@@U1@@Z 000000018000ec40     game.obj
+ 0002:00001c4c       $unwind$?str_split_left@@YA_NUstr@@EPEAU1@1@Z 000000018000ec4c     game.obj
+ 0002:00001c54       $unwind$?str_split_left@@YA_NUstr@@0PEAU1@1@Z 000000018000ec54     game.obj
+ 0002:00001c5c       $unwind$?str_split_newline_left@@YA_NUstr@@PEAU1@1@Z 000000018000ec5c     game.obj
+ 0002:00001c64       $unwind$?str_split_right@@YA_NUstr@@EPEAU1@1@Z 000000018000ec64     game.obj
+ 0002:00001c6c       $unwind$?str_trim_inplace@@YAXPEAUstr@@@Z 000000018000ec6c     game.obj
+ 0002:00001c74       $unwind$?str_trim_left@@YA?AUstr@@U1@@Z 000000018000ec74     game.obj
+ 0002:00001c80       $unwind$?str_trim_right@@YA?AUstr@@U1@@Z 000000018000ec80     game.obj
+ 0002:00001c8c       $unwind$?str_trim@@YA?AUstr@@U1@@Z 000000018000ec8c     game.obj
+ 0002:00001c98       $unwind$?str_to_u32@@YA_NUstr@@PEAI@Z 000000018000ec98     game.obj
+ 0002:00001ca0       $unwind$?str_to_u32@@YAIUstr@@@Z 000000018000eca0     game.obj
+ 0002:00001ca8       $unwind$?str_starts_with@@YA_NUstr@@D@Z 000000018000eca8     game.obj
+ 0002:00001cb0       $unwind$?str_starts_with@@YA_NUstr@@0@Z 000000018000ecb0     game.obj
+ 0002:00001cb8       $unwind$?str_ends_with@@YA_NUstr@@D@Z 000000018000ecb8     game.obj
+ 0002:00001cc0       $unwind$?str_ends_with@@YA_NUstr@@0@Z 000000018000ecc0     game.obj
+ 0002:00001cc8       $unwind$?str_count@@YAHUstr@@D@Z 000000018000ecc8     game.obj
+ 0002:00001cd0       $unwind$?str_length_in_char@@YAIUstr@@@Z 000000018000ecd0     game.obj
+ 0002:00001cd8       $unwind$?str_is_u32@@YA_NUstr@@@Z 000000018000ecd8     game.obj
+ 0002:00001ce0       $unwind$?str_matches@@YA_NUstr@@0@Z 000000018000ece0     game.obj
+ 0002:00001ce8       $unwind$?make_str_builder@@YA?AUStrBuilder@@HUAllocator@@@Z 000000018000ece8     game.obj
+ 0002:00001cf4       $unwind$?make_str_builder@@YA?AUStrBuilder@@XZ 000000018000ecf4     game.obj
+ 0002:00001d00       $unwind$?make_str_builder@@YA?AUStrBuilder@@H@Z 000000018000ed00     game.obj
+ 0002:00001d0c       $unwind$?str_builder_free@@YAXPEAUStrBuilder@@@Z 000000018000ed0c     game.obj
+ 0002:00001d14       $unwind$?str_builder_copy@@YA?AUStrBuilder@@PEAU1@@Z 000000018000ed14     game.obj
+ 0002:00001d20       $unwind$?str_builder_get_str@@YA?AUstr@@PEAUStrBuilder@@@Z 000000018000ed20     game.obj
+ 0002:00001d2c       $unwind$?str_builder_resize@@YAXPEAUStrBuilder@@H@Z 000000018000ed2c     game.obj
+ 0002:00001d34       $unwind$?str_builder_reserve@@YAXPEAUStrBuilder@@H@Z 000000018000ed34     game.obj
+ 0002:00001d3c       $unwind$?str_builder_append@@YAXPEAUStrBuilder@@Ustr@@@Z 000000018000ed3c     game.obj
+ 0002:00001d44       $unwind$?str_builder_append@@YAXPEAUStrBuilder@@PEBD@Z 000000018000ed44     game.obj
+ 0002:00001d50       $unwind$?str_builder_append@@YAXPEAUStrBuilder@@_N@Z 000000018000ed50     game.obj
+ 0002:00001d5c       $unwind$?str_builder_append@@YAXPEAUStrBuilder@@D@Z 000000018000ed5c     game.obj
+ 0002:00001d64       $unwind$?str_builder_append@@YAXPEAUStrBuilder@@E@Z 000000018000ed64     game.obj
+ 0002:00001d70       $unwind$?str_builder_append@@YAXPEAUStrBuilder@@G@Z 000000018000ed70     game.obj
+ 0002:00001d84       $unwind$?str_builder_append@@YAXPEAUStrBuilder@@I@Z 000000018000ed84     game.obj
+ 0002:00001d98       $unwind$?str_builder_append@@YAXPEAUStrBuilder@@_K@Z 000000018000ed98     game.obj
+ 0002:00001dac       $unwind$?str_builder_append@@YAXPEAUStrBuilder@@C@Z 000000018000edac     game.obj
+ 0002:00001dc0       $unwind$?str_builder_append@@YAXPEAUStrBuilder@@F@Z 000000018000edc0     game.obj
+ 0002:00001dd4       $unwind$?str_builder_append@@YAXPEAUStrBuilder@@H@Z 000000018000edd4     game.obj
+ 0002:00001de8       $unwind$?str_builder_append@@YAXPEAUStrBuilder@@_J@Z 000000018000ede8     game.obj
+ 0002:00001dfc       $unwind$?str_builder_append@@YAXPEAUStrBuilder@@M@Z 000000018000edfc     game.obj
+ 0002:00001e10       $unwind$?str_builder_append@@YAXPEAUStrBuilder@@N@Z 000000018000ee10     game.obj
+ 0002:00001e24       $unwind$?str_builder_append_hex@@YAXPEAUStrBuilder@@I@Z 000000018000ee24     game.obj
+ 0002:00001e38       $unwind$?str_builder_append@@YAXPEAUStrBuilder@@Uvec2@@@Z 000000018000ee38     game.obj
+ 0002:00001e40       $unwind$?str_builder_append@@YAXPEAUStrBuilder@@Uvec3@@@Z 000000018000ee40     game.obj
+ 0002:00001e48       $unwind$?str_builder_append@@YAXPEAUStrBuilder@@Uvec4@@@Z 000000018000ee48     game.obj
+ 0002:00001e50       $unwind$?str_builder_append_raw@@YAXPEAUStrBuilder@@PEAEH@Z 000000018000ee50     game.obj
+ 0002:00001e58       $unwind$?str_builder_append_raw@@YAXPEAUStrBuilder@@E@Z 000000018000ee58     game.obj
+ 0002:00001e60       $unwind$?str_builder_append_raw@@YAXPEAUStrBuilder@@_N@Z 000000018000ee60     game.obj
+ 0002:00001e68       $unwind$?str_builder_append_raw@@YAXPEAUStrBuilder@@_K@Z 000000018000ee68     game.obj
+ 0002:00001e70       $unwind$?str_builder_append_raw@@YAXPEAUStrBuilder@@I@Z 000000018000ee70     game.obj
+ 0002:00001e78       $unwind$?str_builder_append_raw@@YAXPEAUStrBuilder@@G@Z 000000018000ee78     game.obj
+ 0002:00001e80       $unwind$?str_builder_append_raw@@YAXPEAUStrBuilder@@_J@Z 000000018000ee80     game.obj
+ 0002:00001e88       $unwind$?str_builder_append_raw@@YAXPEAUStrBuilder@@H@Z 000000018000ee88     game.obj
+ 0002:00001e90       $unwind$?str_builder_append_raw@@YAXPEAUStrBuilder@@F@Z 000000018000ee90     game.obj
+ 0002:00001e98       $unwind$?str_builder_append_raw@@YAXPEAUStrBuilder@@M@Z 000000018000ee98     game.obj
+ 0002:00001ea0       $unwind$?str_builder_append_raw@@YAXPEAUStrBuilder@@N@Z 000000018000eea0     game.obj
+ 0002:00001ea8       $unwind$?str_builder_append_raw@@YAXPEAUStrBuilder@@Uvec2@@@Z 000000018000eea8     game.obj
+ 0002:00001eb0       $unwind$?str_builder_append_raw@@YAXPEAUStrBuilder@@Uvec3@@@Z 000000018000eeb0     game.obj
+ 0002:00001eb8       $unwind$?str_builder_append_raw@@YAXPEAUStrBuilder@@Uvec4@@@Z 000000018000eeb8     game.obj
+ 0002:00001ec0       $unwind$?make_str_parser@@YA?AUStrParser@@Ustr@@@Z 000000018000eec0     game.obj
+ 0002:00001ecc       $unwind$?make_str_parser@@YA?AUStrParser@@PEAEH@Z 000000018000eecc     game.obj
+ 0002:00001ed8       $unwind$?copy_str_parser@@YA?AUStrParser@@U1@@Z 000000018000eed8     game.obj
+ 0002:00001ee4       $unwind$?str_parser_to_str@@YA?AUstr@@UStrParser@@@Z 000000018000eee4     game.obj
+ 0002:00001ef0       $unwind$?str_parser_is_empty@@YA_NPEAUStrParser@@@Z 000000018000eef0     game.obj
+ 0002:00001ef8       $unwind$?str_parser_advance@@YAXPEAUStrParser@@H@Z 000000018000eef8     game.obj
+ 0002:00001f00       $unwind$?str_parser_starts_with@@YA_NPEAUStrParser@@Ustr@@@Z 000000018000ef00     game.obj
+ 0002:00001f08       $unwind$?str_parser_check_magic@@YA_NPEAUStrParser@@Ustr@@@Z 000000018000ef08     game.obj
+ 0002:00001f14       $unwind$?str_parser_starts_with_digit@@YA_NPEAUStrParser@@@Z 000000018000ef14     game.obj
+ 0002:00001f1c       $unwind$?str_parser_parse_bool@@YA_NPEAUStrParser@@PEA_N@Z 000000018000ef1c     game.obj
+ 0002:00001f28       $unwind$?str_parser_parse_u8@@YA_NPEAUStrParser@@PEAE@Z 000000018000ef28     game.obj
+ 0002:00001f30       $unwind$?str_parser_parse_u16@@YA_NPEAUStrParser@@PEAG@Z 000000018000ef30     game.obj
+ 0002:00001f38       $unwind$?str_parser_parse_u32@@YA_NPEAUStrParser@@PEAI@Z 000000018000ef38     game.obj
+ 0002:00001f40       $unwind$?str_parser_parse_u64@@YA_NPEAUStrParser@@PEA_K@Z 000000018000ef40     game.obj
+ 0002:00001f48       $unwind$?hash_default@@YA_KPEAEH@Z 000000018000ef48     game.obj
+ 0002:00001f50       $unwind$?get_os_timer_freq@@YA_KXZ 000000018000ef50     game.obj
+ 0002:00001f58       $unwind$?read_os_timer@@YA_KXZ 000000018000ef58     game.obj
+ 0002:00001f60       $unwind$?estimate_cpu_frequency@@YA_KH@Z 000000018000ef60     game.obj
+ 0002:00001f68       $unwind$?begin_profile@@YAXXZ 000000018000ef68     game.obj
+ 0002:00001f70       $unwind$?pad_right@@YAXH@Z 000000018000ef70     game.obj
+ 0002:00001f78       $unwind$?end_and_print_profile@@YAXXZ 000000018000ef78     game.obj
+ 0002:00001f84       $unwind$?print_benchmark_time@@YAX_K@Z 000000018000ef84     game.obj
+ 0002:00001f8c       $unwind$?print_benchmark_times@@YAX_K00@Z 000000018000ef8c     game.obj
+ 0002:00001f94       $unwind$?win64_print_error@@YAXXZ 000000018000ef94     game.obj
+ 0002:00001fa4       $unwind$?win64_alloc@@YAPEAXH@Z 000000018000efa4     game.obj
+ 0002:00001fac       $unwind$?win64_free@@YAXPEAX@Z 000000018000efac     game.obj
+ 0002:00001fb4       $unwind$?get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z 000000018000efb4     game.obj
+ 0002:00001fcc       $cppxdata$?get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z 000000018000efcc     game.obj
+ 0002:00001fd5       $stateUnwindMap$?get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z 000000018000efd5     game.obj
+ 0002:00001fe5       $ip2state$?get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z 000000018000efe5     game.obj
+ 0002:0000200d       $cppxdata$??1?$ScopeExit@V<lambda_1>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 000000018000f00d     game.obj
+ 0002:00002012       $cppxdata$??1?$ScopeExit@V<lambda_2>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 000000018000f012     game.obj
+ 0002:00002017       $cppxdata$??1?$ScopeExit@V<lambda_3>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 000000018000f017     game.obj
+ 0002:0000201c       $unwind$?dtor$0@?0??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@4HA 000000018000f01c     game.obj
+ 0002:00002024       $unwind$?dtor$1@?0??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@4HA 000000018000f024     game.obj
+ 0002:0000202c       $unwind$?dtor$2@?0??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@4HA 000000018000f02c     game.obj
+ 0002:00002034       $unwind$??R<lambda_1>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@QEBA@XZ 000000018000f034     game.obj
+ 0002:0000203c       $unwind$??1?$ScopeExit@V<lambda_1>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 000000018000f03c     game.obj
+ 0002:0000204c       $ip2state$??1?$ScopeExit@V<lambda_1>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 000000018000f04c     game.obj
+ 0002:0000204f       $cppxdata$?get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z 000000018000f04f     game.obj
+ 0002:00002058       $unwind$??R<lambda_2>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@QEBA@XZ 000000018000f058     game.obj
+ 0002:00002060       $unwind$??1?$ScopeExit@V<lambda_2>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 000000018000f060     game.obj
+ 0002:00002070       $ip2state$??1?$ScopeExit@V<lambda_2>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 000000018000f070     game.obj
+ 0002:00002073       $cppxdata$??1?$ScopeExit@V<lambda_1>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 000000018000f073     game.obj
+ 0002:00002078       $unwind$??R<lambda_3>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@QEBA@XZ 000000018000f078     game.obj
+ 0002:00002080       $unwind$??1?$ScopeExit@V<lambda_3>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 000000018000f080     game.obj
+ 0002:00002090       $ip2state$??1?$ScopeExit@V<lambda_3>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 000000018000f090     game.obj
+ 0002:00002093       $cppxdata$??1?$ScopeExit@V<lambda_2>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 000000018000f093     game.obj
+ 0002:00002098       $unwind$?get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z 000000018000f098     game.obj
+ 0002:000020b0       $stateUnwindMap$?get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z 000000018000f0b0     game.obj
+ 0002:000020c0       $ip2state$?get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z 000000018000f0c0     game.obj
+ 0002:000020e8       $unwind$?dtor$0@?0??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@4HA 000000018000f0e8     game.obj
+ 0002:000020f0       $unwind$?dtor$1@?0??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@4HA 000000018000f0f0     game.obj
+ 0002:000020f8       $unwind$?dtor$2@?0??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@4HA 000000018000f0f8     game.obj
+ 0002:00002100       $unwind$??R<lambda_1>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@QEBA@XZ 000000018000f100     game.obj
+ 0002:00002108       $unwind$??1?$ScopeExit@V<lambda_1>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 000000018000f108     game.obj
+ 0002:00002118       $ip2state$??1?$ScopeExit@V<lambda_1>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 000000018000f118     game.obj
+ 0002:0000211b       $cppxdata$??1?$ScopeExit@V<lambda_3>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 000000018000f11b     game.obj
+ 0002:00002120       $unwind$??R<lambda_2>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@QEBA@XZ 000000018000f120     game.obj
+ 0002:00002128       $unwind$??1?$ScopeExit@V<lambda_2>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 000000018000f128     game.obj
+ 0002:00002138       $ip2state$??1?$ScopeExit@V<lambda_2>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 000000018000f138     game.obj
+ 0002:0000213c       $unwind$??R<lambda_3>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@QEBA@XZ 000000018000f13c     game.obj
+ 0002:00002144       $unwind$??1?$ScopeExit@V<lambda_3>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 000000018000f144     game.obj
+ 0002:00002154       $ip2state$??1?$ScopeExit@V<lambda_3>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@QEAA@XZ 000000018000f154     game.obj
+ 0002:00002158       $unwind$?get_drive_names@@YA_NPEAU?$Array@Ustr@@@@@Z 000000018000f158     game.obj
+ 0002:0000216c       $unwind$?draw_quad@@YAXPEAIUvec2@@1I@Z 000000018000f16c     game.obj
+ 0002:00002174       $unwind$?swap@@YAXAEAM0@Z  000000018000f174     game.obj
+ 0002:0000217c       $unwind$?draw_line@@YAXPEAIUvec2@@1I@Z 000000018000f17c     game.obj
+ 0002:00002184       $unwind$game_update_and_render 000000018000f184     game.obj
+ 0002:0000218c       $unwind$?flush_to_stdout@@YAXXZ 000000018000f18c     game.obj
+ 0002:00002194       $unwind$?count_digits@@YAE_K@Z 000000018000f194     game.obj
+ 0002:00002194       $unwind$?printsl_custom@@YAXPEBD@Z 000000018000f194     game.obj
+ 0002:0000219c       $unwind$?printsl_custom@@YAXH@Z 000000018000f19c     game.obj
+ 0002:000021a4       $unwind$?__sqrt@@YAMM@Z    000000018000f1a4     game.obj
+ 0002:000021a4       $unwind$?printsl_custom@@YAXM@Z 000000018000f1a4     game.obj
+ 0002:000021a4       $unwind$?printsl_custom@@YAXN@Z 000000018000f1a4     game.obj
+ 0002:000021ac       $unwind$??$str_parser_get@D@@YADPEAUStrParser@@@Z 000000018000f1ac     game.obj
+ 0002:000021ac       $unwind$?accumulate_into_buffer@@YAXPEBD@Z 000000018000f1ac     game.obj
+ 0002:000021ac       $unwind$__report_gsfailure 000000018000f1ac     MSVCRT:gs_report.obj
+ 0002:000021b4       $unwind$??$print@PEBD@@YAXPEBD@Z 000000018000f1b4     game.obj
+ 0002:000021b4       $unwind$??$printsl@PEBD@@YAXPEBD@Z 000000018000f1b4     game.obj
+ 0002:000021b4       $unwind$??0StrBuilder@@QEAA@XZ 000000018000f1b4     game.obj
+ 0002:000021bc       $unwind$??$print@PEBD$$V@@YAXPEBD0@Z 000000018000f1bc     game.obj
+ 0002:000021bc       $unwind$??0str@@QEAA@PEBD@Z 000000018000f1bc     game.obj
+ 0002:000021c4       $unwind$??$print@H$$V@@YAXPEBDH@Z 000000018000f1c4     game.obj
+ 0002:000021cc       $unwind$?_sin_internal@@YAMM@Z 000000018000f1cc     game.obj
+ 0002:000021d4       $unwind$?printsl_custom@@YAXUvec3@@@Z 000000018000f1d4     game.obj
+ 0002:000021dc       $unwind$??$printsl@PEBDPEBD@@YAXPEBD00@Z 000000018000f1dc     game.obj
+ 0002:000021dc       $unwind$??H@YA?AUvec3@@U0@0@Z 000000018000f1dc     game.obj
+ 0002:000021e4       $unwind$?vec3_length@@YAMUvec3@@@Z 000000018000f1e4     game.obj
+ 0002:000021f0       $unwind$?vec3_normalize@@YA?AUvec3@@U1@0M@Z 000000018000f1f0     game.obj
+ 0002:000021fc       $unwind$??$accumulate_into_buffer@PEBD$$V@@YAXPEBD0@Z 000000018000f1fc     game.obj
+ 0002:000021fc       $unwind$?col_denormalize@@YA?AUcol@@U1@@Z 000000018000f1fc     game.obj
+ 0002:000021fc       $unwind$?col_normalize@@YA?AUcol@@U1@@Z 000000018000f1fc     game.obj
+ 0002:00002204       $unwind$?col_rgb_to_hsv@@YA?AUcol@@U1@@Z 000000018000f204     game.obj
+ 0002:0000220c       $unwind$?color_hsv_to_rgb@@YA?AUcol@@U1@@Z 000000018000f20c     game.obj
+ 0002:00002214       $unwind$?color_lerp_hsv@@YA?AUcol@@U1@0M@Z 000000018000f214     game.obj
+ 0002:0000221c       $unwind$??$print@NNN@@YAXPEBDNNN@Z 000000018000f21c     game.obj
+ 0002:0000221c       $unwind$??$printsl@MMM@@YAXPEBDMMM@Z 000000018000f21c     game.obj
+ 0002:00002224       $unwind$??$print@M$$V@@YAXPEBDM@Z 000000018000f224     game.obj
+ 0002:00002224       $unwind$??$print@N$$V@@YAXPEBDN@Z 000000018000f224     game.obj
+ 0002:00002224       $unwind$??$printsl@M$$V@@YAXPEBDM@Z 000000018000f224     game.obj
+ 0002:0000222c       $unwind$??K@YA?AUbivec@@U0@M@Z 000000018000f22c     game.obj
+ 0002:00002240       $unwind$??$accumulate_into_buffer@MMM@@YAXPEBDMMM@Z 000000018000f240     game.obj
+ 0002:00002240       $unwind$??$accumulate_into_buffer@MMMM@@YAXPEBDMMMM@Z 000000018000f240     game.obj
+ 0002:00002240       $unwind$??$accumulate_into_buffer@NNN@@YAXPEBDNNN@Z 000000018000f240     game.obj
+ 0002:00002240       $unwind$??$printsl@MMMM@@YAXPEBDMMMM@Z 000000018000f240     game.obj
+ 0002:00002248       $unwind$??$assert_func@Uvec3@@U1@@@YA_N_NPEBD1H11Uvec3@@2@Z 000000018000f248     game.obj
+ 0002:00002254       $unwind$??$assert_func@$$V@@YA_N_NPEBD1H11@Z 000000018000f254     game.obj
+ 0002:00002254       $unwind$??$assert_func@H@@YA_N_NPEBD1H11H@Z 000000018000f254     game.obj
+ 0002:00002254       $unwind$??$assert_func@HH@@YA_N_NPEBD1H11HH@Z 000000018000f254     game.obj
+ 0002:00002254       $unwind$??$assert_func@HHH@@YA_N_NPEBD1H11HHH@Z 000000018000f254     game.obj
+ 0002:00002254       $unwind$??$assert_func@M@@YA_N_NPEBD1H11M@Z 000000018000f254     game.obj
+ 0002:00002254       $unwind$??$print@HHH@@YAXPEBDHHH@Z 000000018000f254     game.obj
+ 0002:0000225c       $unwind$??__Etemporary_arena@@YAXXZ 000000018000f25c     game.obj
+ 0002:0000225c       $unwind$__scrt_initialize_default_local_stdio_options 000000018000f25c     MSVCRT:default_local_stdio_options.obj
+ 0002:0000225c       $unwind$?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000f25c     MSVCRT:dll_dllmain.obj
+ 0002:0000225c       $unwind$DllMain            000000018000f25c     MSVCRT:dll_dllmain_stub.obj
+ 0002:0000225c       $unwind$__GSHandlerCheck   000000018000f25c     MSVCRT:gshandler.obj
+ 0002:0000225c       $unwind$__scrt_acquire_startup_lock 000000018000f25c     MSVCRT:utility.obj
+ 0002:0000225c       $unwind$__scrt_dllmain_after_initialize_c 000000018000f25c     MSVCRT:utility.obj
+ 0002:0000225c       $unwind$__scrt_dllmain_before_initialize_c 000000018000f25c     MSVCRT:utility.obj
+ 0002:0000225c       $unwind$__scrt_dllmain_crt_thread_attach 000000018000f25c     MSVCRT:utility.obj
+ 0002:0000225c       $unwind$__scrt_dllmain_crt_thread_detach 000000018000f25c     MSVCRT:utility.obj
+ 0002:0000225c       $unwind$__scrt_dllmain_uninitialize_c 000000018000f25c     MSVCRT:utility.obj
+ 0002:0000225c       $unwind$__scrt_dllmain_uninitialize_critical 000000018000f25c     MSVCRT:utility.obj
+ 0002:00002264       $unwind$??Astr@@QEAAAEAEH@Z 000000018000f264     game.obj
+ 0002:0000226c       $unwind$??$?6V<lambda_1>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@<unnamed-type-the_trick_that_lets_us_concatenate>@@QEAA?AU?$ScopeExit@V<lambda_1>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@V<lambda_1>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@Z 000000018000f26c     game.obj
+ 0002:0000226c       $unwind$??$?6V<lambda_1>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@<unnamed-type-the_trick_that_lets_us_concatenate>@@QEAA?AU?$ScopeExit@V<lambda_1>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@V<lambda_1>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@Z 000000018000f26c     game.obj
+ 0002:0000226c       $unwind$??$?6V<lambda_2>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@<unnamed-type-the_trick_that_lets_us_concatenate>@@QEAA?AU?$ScopeExit@V<lambda_2>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@V<lambda_2>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@Z 000000018000f26c     game.obj
+ 0002:0000226c       $unwind$??$?6V<lambda_2>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@<unnamed-type-the_trick_that_lets_us_concatenate>@@QEAA?AU?$ScopeExit@V<lambda_2>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@V<lambda_2>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@Z 000000018000f26c     game.obj
+ 0002:0000226c       $unwind$??$?6V<lambda_3>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@<unnamed-type-the_trick_that_lets_us_concatenate>@@QEAA?AU?$ScopeExit@V<lambda_3>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@V<lambda_3>@?1??get_only_files_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@Z 000000018000f26c     game.obj
+ 0002:0000226c       $unwind$??$?6V<lambda_3>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@<unnamed-type-the_trick_that_lets_us_concatenate>@@QEAA?AU?$ScopeExit@V<lambda_3>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@@V<lambda_3>@?1??get_only_folders_in_dir@@YA_NUstr@@PEAU?$Array@Ustr@@@@@Z@@Z 000000018000f26c     game.obj
+ 0002:0000226c       $unwind$??$accumulate_into_buffer@HM@@YAXPEBDHM@Z 000000018000f26c     game.obj
+ 0002:0000226c       $unwind$??$accumulate_into_buffer@PEBDPEBD@@YAXPEBD00@Z 000000018000f26c     game.obj
+ 0002:00002274       $unwind$??$array_append@Ustr@@@@YAXPEAU?$Array@Ustr@@@@Ustr@@@Z 000000018000f274     game.obj
+ 0002:00002280       $unwind$??$accumulate_into_buffer@M$$V@@YAXPEBDM@Z 000000018000f280     game.obj
+ 0002:00002280       $unwind$??$accumulate_into_buffer@N$$V@@YAXPEBDN@Z 000000018000f280     game.obj
+ 0002:00002288       $unwind$??$print@Uvec3@@U1@@@YAXPEBDUvec3@@1@Z 000000018000f288     game.obj
+ 0002:00002294       $unwind$??$print@HH@@YAXPEBDHH@Z 000000018000f294     game.obj
+ 0002:0000229c       $unwind$??$array_reserve@Ustr@@@@YAXPEAU?$Array@Ustr@@@@H@Z 000000018000f29c     game.obj
+ 0002:000022a4       $unwind$??$accumulate_into_buffer@H$$V@@YAXPEBDH@Z 000000018000f2a4     game.obj
+ 0002:000022ac       $unwind$??$accumulate_into_buffer@MM@@YAXPEBDMM@Z 000000018000f2ac     game.obj
+ 0002:000022ac       $unwind$??$accumulate_into_buffer@NN@@YAXPEBDNN@Z 000000018000f2ac     game.obj
+ 0002:000022b4       $unwind$??$accumulate_into_buffer@Uvec3@@U1@@@YAXPEBDUvec3@@1@Z 000000018000f2b4     game.obj
+ 0002:000022c0       $unwind$??$accumulate_into_buffer@HHH@@YAXPEBDHHH@Z 000000018000f2c0     game.obj
+ 0002:000022c8       $unwind$??$accumulate_into_buffer@MHM@@YAXPEBDMHM@Z 000000018000f2c8     game.obj
+ 0002:000022d0       $unwind$??$accumulate_into_buffer@HH@@YAXPEBDHH@Z 000000018000f2d0     game.obj
+ 0002:000022d8       $unwind$??$array_resize@Ustr@@@@YAXPEAU?$Array@Ustr@@@@H@Z 000000018000f2d8     game.obj
+ 0002:000022e4       $unwind$??$accumulate_into_buffer@Uvec3@@$$V@@YAXPEBDUvec3@@@Z 000000018000f2e4     game.obj
+ 0002:000022f0       $unwind$__GSHandlerCheckCommon 000000018000f2f0     MSVCRT:gshandler.obj
+ 0002:000022f8       $unwind$__GSHandlerCheck_EH4 000000018000f2f8     MSVCRT:gshandlereh4.obj
+ 0002:00002310       $xdatasym                  000000018000f310     MSVCRT:amdsecgs.obj
+ 0002:00002314       $unwind$?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 000000018000f314     MSVCRT:dll_dllmain.obj
+ 0002:00002350       $unwind$?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 000000018000f350     MSVCRT:dll_dllmain.obj
+ 0002:00002350       $unwind$?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018000f350     MSVCRT:dll_dllmain.obj
+ 0002:00002350       $unwind$?fin$1@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018000f350     MSVCRT:dll_dllmain.obj
+ 0002:00002358       $unwind$?dllmain_crt_process_detach@@YAH_N@Z 000000018000f358     MSVCRT:dll_dllmain.obj
+ 0002:000023ac       $unwind$?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000f3ac     MSVCRT:dll_dllmain.obj
+ 0002:000023d4       $unwind$?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 000000018000f3d4     MSVCRT:dll_dllmain.obj
+ 0002:000023dc       $unwind$_DllMainCRTStartup 000000018000f3dc     MSVCRT:dll_dllmain.obj
+ 0002:000023ec       $unwind$capture_previous_context 000000018000f3ec     MSVCRT:gs_report.obj
+ 0002:000023f8       $unwind$__raise_securityfailure 000000018000f3f8     MSVCRT:gs_report.obj
+ 0002:000023f8       $unwind$__scrt_initialize_crt 000000018000f3f8     MSVCRT:utility.obj
+ 0002:000023f8       $unwind$__scrt_initialize_onexit_tables 000000018000f3f8     MSVCRT:utility.obj
+ 0002:000023f8       $unwind$__scrt_release_startup_lock 000000018000f3f8     MSVCRT:utility.obj
+ 0002:000023f8       $unwind$__scrt_uninitialize_crt 000000018000f3f8     MSVCRT:utility.obj
+ 0002:00002400       $unwind$__security_init_cookie 000000018000f400     MSVCRT:gs_support.obj
+ 0002:0000240c       $unwind$__scrt_is_nonwritable_in_current_image 000000018000f40c     MSVCRT:utility.obj
+ 0002:0000242c       $unwind$__scrt_is_nonwritable_in_current_image$filt$0 000000018000f42c     MSVCRT:utility.obj
+ 0002:00002434       $unwind$__scrt_dllmain_exception_filter 000000018000f434     MSVCRT:utility.obj
+ 0002:00002448       $unwind$__scrt_fastfail    000000018000f448     MSVCRT:utility_desktop.obj
+ 0002:00002458       $unwind$_RTC_Initialize    000000018000f458     MSVCRT:initsect.obj
+ 0002:00002458       $unwind$_RTC_Terminate     000000018000f458     MSVCRT:initsect.obj
+ 0002:00002464       $unwind$__isa_available_init 000000018000f464     MSVCRT:cpu_disp.obj
+ 0002:00002478       $xdatasym                  000000018000f478     MSVCRT:guard_dispatch.obj
+ 0002:00002480       $xdatasym                  000000018000f480     MSVCRT:guard_xfg_dispatch.obj
+ 0002:00002490       .edata                     000000018000f490     game.exp
+ 0002:000024b8       rgpv                       000000018000f4b8     game.exp
+ 0002:000024bc       rgszName                   000000018000f4bc     game.exp
+ 0002:000024c0       rgwOrd                     000000018000f4c0     game.exp
+ 0002:000024c2       szName                     000000018000f4c2     game.exp
+ 0002:000024cb       $N00001                    000000018000f4cb     game.exp
+ 0002:00002978       .idata$6                   000000018000f978     kernel32:KERNEL32.dll
+ 0002:000029e8       .idata$6                   000000018000f9e8     vcruntime:VCRUNTIME140.dll
+ 0002:000029fa       .idata$6                   000000018000f9fa     vcruntime:VCRUNTIME140_1.dll
+ 0002:00002b54       .idata$6                   000000018000fb54     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00002b74       .idata$6                   000000018000fb74     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00002b94       .idata$6                   000000018000fb94     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00002bb6       .idata$6                   000000018000fbb6     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0003:000201e8       ?the_trick_that_lets_us_concatenate@@3U<unnamed-type-the_trick_that_lets_us_concatenate>@@A 00000001800301e8     game.obj
+ 0003:000201f8       ?__proc_attached@@3HA      00000001800301f8     MSVCRT:dll_dllmain.obj
+ 0003:00020200       GS_ExceptionRecord         0000000180030200     MSVCRT:gs_report.obj
+ 0003:000202a0       GS_ContextRecord           00000001800302a0     MSVCRT:gs_report.obj
+ 0003:00020798       ?is_initialized_as_dll@@3_NA 0000000180030798     MSVCRT:utility.obj
+ 0003:00020799       ?module_local_atexit_table_initialized@@3_NA 0000000180030799     MSVCRT:utility.obj
+ 0003:000207a0       ?module_local_atexit_table@@3U_onexit_table_t@@A 00000001800307a0     MSVCRT:utility.obj
+ 0003:000207b8       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 00000001800307b8     MSVCRT:utility.obj

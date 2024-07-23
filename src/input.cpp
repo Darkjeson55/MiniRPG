@@ -1,7 +1,8 @@
 enum class KeyState{KeyDown, KeyUp, KeyRelease, KeyHold};
 KeyState key_list[255];
 KeyState mouse_button_list[32];
-vec2i mouse_pos;
+int mouse_x, mouse_y;
+
 
 //******** INPUT *******
 void pool_events(SDL_Event* ev, bool& app_running){
@@ -45,7 +46,7 @@ void pool_events(SDL_Event* ev, bool& app_running){
         }
     }
     
-    SDL_GetMouseState(&mouse_pos.x, &mouse_pos.y);
+    SDL_GetMouseState(&mouse_x, &mouse_y);
 }
 
 bool is_key_down(uint32_t key_code){

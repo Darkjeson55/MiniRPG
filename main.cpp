@@ -1,25 +1,65 @@
-#include <stdio.h>
+#include <windows.h>
 #include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
+#include <SDL2/SDL_mixer.h>
 #include <SDL2/SDL_keycode.h>
-#include <vector>
-
-#include "src/math.h"
-#include "src/game.h"
-
 #include "src/input.cpp"
+#include "src/GyoUtils/gyoutils.h"
+#include "src/platform.h"
 #include "src/render.cpp"
-#include "src/game.cpp"
 
 #undef main
 
 
-#define WINDOW_SCALE 3
-#define WINDOW_W RENDER_W * WINDOW_SCALE
-#define WINDOW_H RENDER_H * WINDOW_SCALE
+
+
+inline FILETIME Win32_get_last_write_time(char* file_name){
+    FILETIME last_write_time = {};
+    WIN32_FIND_DATA find_data;
+    HANDLE find_handle = FindFirstFileA(file_name, &find_data);
+    if(find_handle != INVALID_HANDLE_VALUE){
+        last_write_time = find_data.ftLastWriteTime;
+        FindClose(find_handle);
+    }
+    return (last_write_time);
+}
+
+game_code load_game_code(char* dll_name, char* temp_dll_name){
+    game_code resoult = {};
+    resoult.dll_last_write_time = Win32_get_last_write_time(dll_name);
+    while(1){
+        if(CopyFile(dll_name, temp_dll_name, FALSE)) break;
+        if(GetLastError() == ERROR_FILE_NOT_FOUND) break;
+    }
+
+    resoult.game_code_dll = LoadLibraryA(temp_dll_name);
+    if(resoult.game_code_dll){
+        resoult.update = (GameUpdate*)
+            GetProcAddress(resoult.game_code_dll, "game_update_and_render");
+
+        resoult.is_valid = resoult.update;
+    }
+
+    if(!resoult.is_valid){
+        resoult.update = game_update_stub;
+    }
+
+    return resoult;
+}
+
+
+void unload_game_code(game_code* code){
+    if(code->game_code_dll){
+        FreeLibrary(code->game_code_dll);
+        code->game_code_dll = 0;
+    }
+
+    code->is_valid = false;
+    code->update = game_update_stub;
+}
 
 
 int main(){
-
     //Window releted stuff
     SDL_Window *window = nullptr;
     SDL_Event event;
@@ -51,31 +91,31 @@ int main(){
         key_list[i] = KeyState::KeyRelease;
     }
 
+    char game_dll_source[] = "game.dll";
+    char full_path_game_dell_source[MAX_PATH];
+    GetFullPathName(game_dll_source, MAX_PATH, full_path_game_dell_source, nullptr);
+
+    char temp_dll_source[] = "game_temp.dll";
+    char full_path_temp_dell_source[MAX_PATH];
+    GetFullPathName(temp_dll_source, MAX_PATH, full_path_temp_dell_source, nullptr);
+
+    game_code game = load_game_code(full_path_game_dell_source, full_path_temp_dell_source);
+
 
     while(window_initialized){
+        FILETIME new_dll_write_time = Win32_get_last_write_time(full_path_game_dell_source);
+        if(CompareFileTime(&new_dll_write_time, &game.dll_last_write_time)){
+            game.dll_last_write_time = new_dll_write_time;
+            unload_game_code(&game);
+            game = load_game_code(full_path_game_dell_source, full_path_temp_dell_source);
+        }
 
         pool_events(&event, window_initialized);
 
         SDL_LockTexture(frame_buffer, NULL, (void**)&pixel_buffer, &pitch);
         memset(pixel_buffer, 0, RENDER_W * RENDER_H);
     
-        update_and_render(pixel_buffer);
-
-        //set_pixel(pixel_buffer, vec2{0,0}, 0xff0000);
-        //set_pixel(pixel_buffer, vec2{1,1}, 0xff0000);
-
-        //draw_line(pixel_buffer, vec2{10,10}, vec2{50 + (float)sin(a) * 15,20 + (float)cos(a) * 15}, 0xffffff);
-        //draw_line(pixel_buffer, vec2{20,13}, vec2{40,80}, 0xffff00);
-        //draw_line(pixel_buffer, vec2{80,40}, vec2{13,20}, 0xff0000);
-
-
-
-        //for(int x = 0; x < RENDER_W; x++){
-        //    for(int y = 0; y < RENDER_H; y++){
-        //        pixel_buffer[x+y*RENDER_W] = (int)((x / (float)RENDER_W) * 255) << 16 |  (int)((y / (float)RENDER_H) * 255) << 8;
-        //    }
-        //}
-
+        game.update(pixel_buffer, 0);
 
         reset_input();
         SDL_UnlockTexture(frame_buffer);
