@@ -1,30 +1,14 @@
 #define MAP_W 10
 #define MAP_H 10
 
-
-
-struct Player{
-
-};
-
-struct GameData{
+struct GameMemory{
     bool is_initialized = false;
+    Texture base_texture;
 
-    float fov = 0;
-
-
-    u32 map[MAP_W * MAP_H] = {
-        1,1,1,1,1,1,1,1,1,1,
-        1,0,0,0,0,0,1,0,0,1,
-        1,0,1,1,0,0,1,0,0,1,
-        1,0,0,1,0,0,1,1,0,1,
-        1,0,0,0,0,0,0,0,0,1,
-        1,0,0,0,0,0,0,0,0,1,
-        1,1,1,1,0,1,1,1,1,1,
-        1,0,0,0,0,0,0,0,0,1,
-        1,0,0,0,0,0,0,0,0,1,
-        1,1,1,1,1,1,1,1,1,1,
-    };
+    //RENDERING STUFF 
+    float depth_buffer[RENDER_W * RENDER_H];
 };
 
-
+GameMemory* memory = nullptr;
+Input* input = nullptr;
+Platform* platfomr = nullptr;

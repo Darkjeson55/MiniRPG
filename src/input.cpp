@@ -3,8 +3,6 @@ KeyState key_list[255];
 KeyState mouse_button_list[32];
 int mouse_x, mouse_y;
 
-
-//******** INPUT *******
 void pool_events(SDL_Event* ev, bool& app_running){
     while(SDL_PollEvent(ev) != 0){
         if(ev->type == SDL_QUIT){
@@ -13,7 +11,7 @@ void pool_events(SDL_Event* ev, bool& app_running){
 
         switch(ev->type){
             case SDL_KEYDOWN:{
-                uint32_t key_id = ev->key.keysym.sym;
+                u32 key_id = ev->key.keysym.sym;
                 if(key_id < 255){
                     key_list[key_id] =  (key_list[key_id] == KeyState::KeyHold) ? KeyState::KeyHold : KeyState::KeyDown;
                 }
@@ -21,7 +19,7 @@ void pool_events(SDL_Event* ev, bool& app_running){
 
             }
             case SDL_KEYUP:{
-                uint32_t key_id = ev->key.keysym.sym;
+                u32 key_id = ev->key.keysym.sym;
                 if(key_id < 255){
                     key_list[key_id] = KeyState::KeyUp;
                 }
@@ -29,7 +27,7 @@ void pool_events(SDL_Event* ev, bool& app_running){
             }
             
             case SDL_MOUSEBUTTONDOWN: {
-                uint32_t key_id = ev->button.button;
+                u32 key_id = ev->button.button;
                 if(key_id < 32){
                     mouse_button_list[key_id] =  (mouse_button_list[key_id] == KeyState::KeyHold) ? KeyState::KeyHold : KeyState::KeyDown;
                 }
@@ -37,7 +35,7 @@ void pool_events(SDL_Event* ev, bool& app_running){
 
                 }break;
             case SDL_MOUSEBUTTONUP: {
-                uint32_t key_id = ev->button.button;
+                u32 key_id = ev->button.button;
 
                 if(key_id < 32){
                     mouse_button_list[key_id] = KeyState::KeyUp;
@@ -49,27 +47,27 @@ void pool_events(SDL_Event* ev, bool& app_running){
     SDL_GetMouseState(&mouse_x, &mouse_y);
 }
 
-bool is_key_down(uint32_t key_code){
+IS_KEY_DOWN(is_key_down){
     return key_list[key_code] == KeyState::KeyDown;
 }
 
-bool is_key_up(uint32_t key_code){
+IS_KEY_UP(is_key_up){
     return key_list[key_code] == KeyState::KeyUp;
 }
 
-bool is_key_press(uint32_t key_code){
+IS_KEY_PRESS(is_key_press){
     return (key_list[key_code] == KeyState::KeyDown || key_list[key_code] == KeyState::KeyHold) ? true : false;
 }
 
-bool is_mouse_button_down(uint32_t key_code){
+IS_MOUSE_BUTTON_DOWN(is_mouse_button_down){
     return mouse_button_list[key_code] == KeyState::KeyDown;
 }
 
-bool is_mouse_button_up(uint32_t key_code){
+IS_MOUSE_BUTTON_UP(is_mouse_button_up){
     return mouse_button_list[key_code] == KeyState::KeyUp;
 }
 
-bool is_mouse_button_press(uint32_t key_code){
+IS_MOUSE_BUTTON_PRESS(is_mouse_button_press){
     return (mouse_button_list[key_code] == KeyState::KeyDown || mouse_button_list[key_code] == KeyState::KeyHold) ? true : false;
 }
 

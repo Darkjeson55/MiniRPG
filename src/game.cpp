@@ -1,6 +1,5 @@
 
 
-GameData game_data = {};
 
 void raycast_walls(u32* buffer){
 
@@ -46,13 +45,6 @@ void update_and_render(u32* buffer){
     }
 
     a+=0.002f;
-    //DRAW MAP
-    //draw_map(buffer);
-
-    //DRAW THE PLAYER
-
-    //DRAW FLOOR
-
     for(int y = 0; y < RENDER_H; y++){
         float y_pos = (y  - (RENDER_H / 2) );
         float z_lenght = (((6 - y_pos)) * pixel_plane_distance - sin(a) * 150) / y_pos + pixel_plane_distance;
@@ -67,7 +59,4 @@ void update_and_render(u32* buffer){
             draw_pixel(buffer, vec2{x, y}, final_color);
         }
     }
-
-
-    //DRAW WALLS
 }

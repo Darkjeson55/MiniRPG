@@ -1,5 +1,3 @@
-#define RENDER_W 480
-#define RENDER_H 320
 
 //************** RENDER ******************* 
 void draw_pixel(u32* buffer ,vec2 pos, u32 color){
